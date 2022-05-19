@@ -61,9 +61,12 @@ def split_train_GNN_onefold(args,logger,path_save):
                 train_data, val_data, test_data = split_data(data=data, split_type=args.split_type, sizes=args.split_sizes,
                                                              seed=seed+i, args=args)
             label=None
-            nn=active_GNN(train_data,val_data,test_data,args.mode,path_save_new,['percent_of_unlabel', 1],label,args.fold,True)  # 最后的False 是用来求 first train 用的
-            # nn.first_train(args,logger)
-            nn.train(args,logger)
+            if args.mode == 'normal':
+                nn=active_GNN(train_data,val_data,test_data,args.mode,path_save_new,['percent_of_unlabel', 1],label,args.fold,False)  # 最后的False 是用来求 first train 用的
+                nn.first_train(args,logger)
+            else: 
+                nn=active_GNN(train_data,val_data,test_data,args.mode,path_save_new,['percent_of_unlabel', 1],label,args.fold,True)  
+                nn.train(args,logger)
             # return train_data,val_data,test_data
 
 from args import TrainArgs

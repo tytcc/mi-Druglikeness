@@ -1,0 +1,837 @@
+Command line
+python train.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --features_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_test.csv --separate_test_features_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --s ../pipeline/marketdrug/test_active_intrial_allainvivo_11-24_nopretrain_firsttrain_05-10_s --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --smiles_column smiles --target_columns label --fold 0 --round 0
+iteration 0
+Epoch 0
+round 0 best train auc = 0.724167 on epoch 0
+round 0 best validation auc = 0.720403 on epoch 0
+Epoch 1
+round 0 best train auc = 0.766071 on epoch 1
+round 0 best validation auc = 0.759843 on epoch 1
+Epoch 2
+Command line
+python train.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --features_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_test.csv --separate_test_features_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --s ../pipeline/marketdrug/test_active_intrial_allainvivo_11-24_nopretrain_firsttrain_05-10_s --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --smiles_column smiles --target_columns label --fold 1 --round 0
+iteration 0
+round 0 best train auc = 0.782181 on epoch 2
+round 0 best validation auc = 0.777419 on epoch 2
+Epoch 3
+Epoch 0
+round 0 best train auc = 0.796853 on epoch 3
+round 0 best validation auc = 0.791224 on epoch 3
+Epoch 4
+round 0 best train auc = 0.725895 on epoch 0
+round 0 best validation auc = 0.736354 on epoch 0
+Epoch 1
+round 0 best train auc = 0.811050 on epoch 4
+round 0 best validation auc = 0.801582 on epoch 4
+Epoch 5
+round 0 best train auc = 0.760776 on epoch 1
+round 0 best validation auc = 0.769482 on epoch 1
+Epoch 2
+Command line
+python train.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --features_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_test.csv --separate_test_features_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --s ../pipeline/marketdrug/test_active_intrial_allainvivo_11-24_nopretrain_firsttrain_05-10_s --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --smiles_column smiles --target_columns label --fold 2 --round 0
+iteration 0
+Epoch 0
+round 0 best train auc = 0.825990 on epoch 5
+round 0 best validation auc = 0.813254 on epoch 5
+Epoch 6
+round 0 best train auc = 0.782971 on epoch 2
+round 0 best validation auc = 0.790226 on epoch 2
+Epoch 3
+round 0 best train auc = 0.728310 on epoch 0
+round 0 best validation auc = 0.720994 on epoch 0
+Epoch 1
+round 0 best train auc = 0.838346 on epoch 6
+round 0 best validation auc = 0.821504 on epoch 6
+Epoch 7
+round 0 best train auc = 0.796438 on epoch 3
+round 0 best validation auc = 0.799741 on epoch 3
+Epoch 4
+round 0 best train auc = 0.771193 on epoch 1
+round 0 best validation auc = 0.764042 on epoch 1
+Epoch 2
+round 0 best train auc = 0.857357 on epoch 7
+round 0 best validation auc = 0.835010 on epoch 7
+Epoch 8
+round 0 best train auc = 0.821149 on epoch 4
+round 0 best validation auc = 0.816898 on epoch 4
+Epoch 5
+round 0 best train auc = 0.789895 on epoch 2
+round 0 best validation auc = 0.778324 on epoch 2
+Epoch 3
+round 0 best train auc = 0.866188 on epoch 8
+round 0 best validation auc = 0.839491 on epoch 8
+Epoch 9
+round 0 best train auc = 0.835834 on epoch 5
+round 0 best validation auc = 0.828126 on epoch 5
+Epoch 6
+round 0 best train auc = 0.804003 on epoch 3
+round 0 best validation auc = 0.792551 on epoch 3
+Epoch 4
+round 0 best train auc = 0.874876 on epoch 9
+round 0 best validation auc = 0.844560 on epoch 9
+Epoch 10
+round 0 best train auc = 0.850307 on epoch 6
+round 0 best validation auc = 0.835629 on epoch 6
+Epoch 7
+round 0 best train auc = 0.824350 on epoch 4
+round 0 best validation auc = 0.806869 on epoch 4
+Epoch 5
+round 0 best train auc = 0.888563 on epoch 10
+round 0 best validation auc = 0.850697 on epoch 10
+Epoch 11
+round 0 best train auc = 0.858229 on epoch 7
+round 0 best validation auc = 0.844475 on epoch 7
+Epoch 8
+round 0 best train auc = 0.837642 on epoch 5
+round 0 best validation auc = 0.814557 on epoch 5
+Epoch 6
+round 0 best train auc = 0.891705 on epoch 11
+round 0 best validation auc = 0.854093 on epoch 11
+Epoch 12
+round 0 best train auc = 0.869973 on epoch 8
+round 0 best validation auc = 0.850560 on epoch 8
+Epoch 9
+round 0 best train auc = 0.851517 on epoch 6
+round 0 best validation auc = 0.827548 on epoch 6
+Epoch 7
+round 0 best train auc = 0.901691 on epoch 12
+round 0 best validation auc = 0.861100 on epoch 12
+Epoch 13
+round 0 best train auc = 0.877421 on epoch 9
+round 0 best validation auc = 0.855823 on epoch 9
+Epoch 10
+round 0 best train auc = 0.860320 on epoch 7
+round 0 best validation auc = 0.834555 on epoch 7
+Epoch 8
+round 0 best train auc = 0.906628 on epoch 13
+round 0 best validation auc = 0.861955 on epoch 13
+Epoch 14
+round 0 best train auc = 0.885902 on epoch 10
+round 0 best validation auc = 0.857184 on epoch 10
+Epoch 11
+round 0 best train auc = 0.872172 on epoch 8
+round 0 best validation auc = 0.841197 on epoch 8
+Epoch 9
+round 0 best train auc = 0.912392 on epoch 14
+round 0 best validation auc = 0.866881 on epoch 14
+Epoch 15
+round 0 best train auc = 0.891230 on epoch 11
+round 0 best validation auc = 0.863060 on epoch 11
+Epoch 12
+round 0 best train auc = 0.874639 on epoch 9
+round 0 best validation auc = 0.841629 on epoch 9
+Epoch 10
+round 0 best train auc = 0.915726 on epoch 15
+round 0 best validation auc = 0.870660 on epoch 15
+Epoch 16
+round 0 best train auc = 0.903818 on epoch 12
+round 0 best validation auc = 0.869846 on epoch 12
+Epoch 13
+round 0 best train auc = 0.886023 on epoch 10
+round 0 best validation auc = 0.850294 on epoch 10
+Epoch 11
+round 0 best train auc = 0.915726 on epoch 15
+round 0 best validation auc = 0.870660 on epoch 15
+Epoch 17
+round 0 best train auc = 0.903818 on epoch 12
+round 0 best validation auc = 0.869846 on epoch 12
+Epoch 14
+round 0 best train auc = 0.930198 on epoch 17
+round 0 best validation auc = 0.875026 on epoch 17
+Epoch 18
+round 0 best train auc = 0.893527 on epoch 11
+round 0 best validation auc = 0.855468 on epoch 11
+Epoch 12
+round 0 best train auc = 0.916161 on epoch 14
+round 0 best validation auc = 0.873084 on epoch 14
+Epoch 15
+round 0 best train auc = 0.933425 on epoch 18
+round 0 best validation auc = 0.880612 on epoch 18
+Epoch 19
+round 0 best train auc = 0.903949 on epoch 12
+round 0 best validation auc = 0.860046 on epoch 12
+Epoch 13
+round 0 best train auc = 0.920130 on epoch 15
+round 0 best validation auc = 0.876931 on epoch 15
+Epoch 16
+round 0 best train auc = 0.933425 on epoch 18
+round 0 best validation auc = 0.880612 on epoch 18
+Epoch 20
+round 0 best train auc = 0.908480 on epoch 13
+round 0 best validation auc = 0.863590 on epoch 13
+Epoch 14
+round 0 best train auc = 0.920130 on epoch 15
+round 0 best validation auc = 0.876931 on epoch 15
+Epoch 17
+round 0 best train auc = 0.940043 on epoch 20
+round 0 best validation auc = 0.881204 on epoch 20
+Epoch 21
+round 0 best train auc = 0.914819 on epoch 14
+round 0 best validation auc = 0.868976 on epoch 14
+Epoch 15
+round 0 best train auc = 0.929197 on epoch 17
+round 0 best validation auc = 0.880702 on epoch 17
+Epoch 18
+round 0 best train auc = 0.942979 on epoch 21
+round 0 best validation auc = 0.883576 on epoch 21
+Epoch 22
+round 0 best train auc = 0.921940 on epoch 15
+round 0 best validation auc = 0.873538 on epoch 15
+Epoch 16
+round 0 best train auc = 0.929197 on epoch 17
+round 0 best validation auc = 0.880702 on epoch 17
+Epoch 19
+round 0 best train auc = 0.942979 on epoch 21
+round 0 best validation auc = 0.883576 on epoch 21
+Epoch 23
+round 0 best train auc = 0.921940 on epoch 15
+round 0 best validation auc = 0.873538 on epoch 15
+Epoch 17
+round 0 best train auc = 0.937165 on epoch 19
+round 0 best validation auc = 0.884517 on epoch 19
+Epoch 20
+round 0 best train auc = 0.949475 on epoch 23
+round 0 best validation auc = 0.888088 on epoch 23
+Epoch 24
+round 0 best train auc = 0.927432 on epoch 17
+round 0 best validation auc = 0.877796 on epoch 17
+Epoch 18
+round 0 best train auc = 0.939247 on epoch 20
+round 0 best validation auc = 0.885361 on epoch 20
+Epoch 21
+round 0 best train auc = 0.949475 on epoch 23
+round 0 best validation auc = 0.888088 on epoch 23
+Epoch 25
+round 0 best train auc = 0.934116 on epoch 18
+round 0 best validation auc = 0.880618 on epoch 18
+Epoch 19
+round 0 best train auc = 0.943441 on epoch 21
+round 0 best validation auc = 0.887085 on epoch 21
+Epoch 22
+round 0 best train auc = 0.949475 on epoch 23
+round 0 best validation auc = 0.888088 on epoch 23
+Epoch 26
+round 0 best train auc = 0.941886 on epoch 19
+round 0 best validation auc = 0.882959 on epoch 19
+Epoch 20
+round 0 best train auc = 0.947911 on epoch 22
+round 0 best validation auc = 0.888113 on epoch 22
+Epoch 23
+round 0 best train auc = 0.961529 on epoch 26
+round 0 best validation auc = 0.888496 on epoch 26
+Epoch 27
+round 0 best train auc = 0.941886 on epoch 19
+round 0 best validation auc = 0.882959 on epoch 19
+Epoch 21
+round 0 best train auc = 0.962156 on epoch 27
+round 0 best validation auc = 0.891842 on epoch 27
+Epoch 28
+round 0 best train auc = 0.951177 on epoch 23
+round 0 best validation auc = 0.893146 on epoch 23
+Epoch 24
+round 0 best train auc = 0.946275 on epoch 21
+round 0 best validation auc = 0.885126 on epoch 21
+Epoch 22
+round 0 best train auc = 0.965694 on epoch 28
+round 0 best validation auc = 0.895335 on epoch 28
+Epoch 29
+round 0 best train auc = 0.951177 on epoch 23
+round 0 best validation auc = 0.893146 on epoch 23
+Epoch 25
+round 0 best train auc = 0.946275 on epoch 21
+round 0 best validation auc = 0.885126 on epoch 21
+Epoch 23
+round 0 best train auc = 0.965694 on epoch 28
+round 0 best validation auc = 0.895335 on epoch 28
+Epoch 30
+round 0 best train auc = 0.958265 on epoch 25
+round 0 best validation auc = 0.893763 on epoch 25
+Epoch 26
+round 0 best train auc = 0.946275 on epoch 21
+round 0 best validation auc = 0.885126 on epoch 21
+Epoch 24
+round 0 best train auc = 0.970092 on epoch 30
+round 0 best validation auc = 0.897876 on epoch 30
+Epoch 31
+round 0 best train auc = 0.958265 on epoch 25
+round 0 best validation auc = 0.893763 on epoch 25
+Epoch 27
+round 0 best train auc = 0.955727 on epoch 24
+round 0 best validation auc = 0.888236 on epoch 24
+Epoch 25
+round 0 best train auc = 0.970092 on epoch 30
+round 0 best validation auc = 0.897876 on epoch 30
+Epoch 32
+round 0 best train auc = 0.958265 on epoch 25
+round 0 best validation auc = 0.893763 on epoch 25
+Epoch 28
+round 0 best train auc = 0.953927 on epoch 25
+round 0 best validation auc = 0.890416 on epoch 25
+Epoch 26
+round 0 best train auc = 0.973875 on epoch 32
+round 0 best validation auc = 0.902448 on epoch 32
+Epoch 33
+round 0 best train auc = 0.964696 on epoch 28
+round 0 best validation auc = 0.897546 on epoch 28
+Epoch 29
+round 0 best train auc = 0.961706 on epoch 26
+round 0 best validation auc = 0.893599 on epoch 26
+Epoch 27
+round 0 best train auc = 0.973875 on epoch 32
+round 0 best validation auc = 0.902448 on epoch 32
+Epoch 34
+round 0 best train auc = 0.966867 on epoch 29
+round 0 best validation auc = 0.897709 on epoch 29
+Epoch 30
+round 0 best train auc = 0.965510 on epoch 27
+round 0 best validation auc = 0.895203 on epoch 27
+Epoch 28
+Command line
+python train.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --features_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_test.csv --separate_test_features_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --s ../pipeline/marketdrug/test_active_intrial_allainvivo_11-24_nopretrain_firsttrain_05-10_s --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --smiles_column smiles --target_columns label --fold 3 --round 0
+round 0 best train auc = 0.973875 on epoch 32
+round 0 best validation auc = 0.902448 on epoch 32
+Epoch 35
+round 0 best train auc = 0.969255 on epoch 30
+round 0 best validation auc = 0.899266 on epoch 30
+Epoch 31
+iteration 0
+round 0 best train auc = 0.965978 on epoch 28
+round 0 best validation auc = 0.896455 on epoch 28
+Epoch 29
+Epoch 0
+round 0 best train auc = 0.980243 on epoch 35
+round 0 best validation auc = 0.903112 on epoch 35
+Epoch 36
+Command line
+python train.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --features_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_test.csv --separate_test_features_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --s ../pipeline/marketdrug/test_active_intrial_allainvivo_11-24_nopretrain_firsttrain_05-10_s --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --smiles_column smiles --target_columns label --fold 3 --round 0
+round 0 best train auc = 0.970557 on epoch 31
+round 0 best validation auc = 0.899834 on epoch 31
+Epoch 32
+iteration 0
+Epoch 0
+round 0 best train auc = 0.965978 on epoch 28
+round 0 best validation auc = 0.896455 on epoch 28
+Epoch 30
+round 0 best train auc = 0.980243 on epoch 35
+round 0 best validation auc = 0.903112 on epoch 35
+Epoch 37
+round 0 best train auc = 0.970557 on epoch 31
+round 0 best validation auc = 0.899834 on epoch 31
+Epoch 33
+round 0 best train auc = 0.965978 on epoch 28
+round 0 best validation auc = 0.896455 on epoch 28
+Epoch 31
+round 0 best train auc = 0.731106 on epoch 0
+round 0 best validation auc = 0.724730 on epoch 0
+Epoch 1
+round 0 best train auc = 0.980243 on epoch 35
+round 0 best validation auc = 0.903112 on epoch 35
+Epoch 38
+round 0 best train auc = 0.974998 on epoch 33
+round 0 best validation auc = 0.901011 on epoch 33
+Epoch 34
+round 0 best train auc = 0.969154 on epoch 31
+round 0 best validation auc = 0.896739 on epoch 31
+Epoch 32
+round 0 best train auc = 0.764548 on epoch 1
+round 0 best validation auc = 0.754247 on epoch 1
+Epoch 2
+round 0 best train auc = 0.983512 on epoch 38
+round 0 best validation auc = 0.904412 on epoch 38
+Epoch 39
+round 0 best train auc = 0.976419 on epoch 34
+round 0 best validation auc = 0.901769 on epoch 34
+Epoch 35
+round 0 best train auc = 0.975931 on epoch 32
+round 0 best validation auc = 0.900700 on epoch 32
+Epoch 33
+round 0 best train auc = 0.788232 on epoch 2
+round 0 best validation auc = 0.772779 on epoch 2
+Epoch 3
+round 0 best train auc = 0.983512 on epoch 38
+round 0 best validation auc = 0.904412 on epoch 38
+Epoch 40
+round 0 best train auc = 0.976419 on epoch 34
+round 0 best validation auc = 0.901769 on epoch 34
+Epoch 36
+round 0 best train auc = 0.976346 on epoch 33
+round 0 best validation auc = 0.901211 on epoch 33
+Epoch 34
+round 0 best train auc = 0.802894 on epoch 3
+round 0 best validation auc = 0.785139 on epoch 3
+Epoch 4
+Command line
+python train.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --features_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_test.csv --separate_test_features_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --s ../pipeline/marketdrug/test_active_intrial_allainvivo_11-24_nopretrain_firsttrain_05-10_s --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --smiles_column smiles --target_columns label --fold 4 --round 0
+round 0 best train auc = 0.985211 on epoch 40
+round 0 best validation auc = 0.904572 on epoch 40
+Epoch 41
+iteration 0
+Epoch 0
+round 0 best train auc = 0.979767 on epoch 36
+round 0 best validation auc = 0.903438 on epoch 36
+Epoch 37
+round 0 best train auc = 0.976346 on epoch 33
+round 0 best validation auc = 0.901211 on epoch 33
+Epoch 35
+round 0 best train auc = 0.816670 on epoch 4
+round 0 best validation auc = 0.800281 on epoch 4
+Epoch 5
+round 0 best train auc = 0.985211 on epoch 40
+round 0 best validation auc = 0.904572 on epoch 40
+Epoch 42
+round 0 best train auc = 0.732365 on epoch 0
+round 0 best validation auc = 0.723347 on epoch 0
+Epoch 1
+round 0 best train auc = 0.981223 on epoch 37
+round 0 best validation auc = 0.905067 on epoch 37
+Epoch 38
+round 0 best train auc = 0.976346 on epoch 33
+round 0 best validation auc = 0.901211 on epoch 33
+Epoch 36
+round 0 best train auc = 0.832079 on epoch 5
+round 0 best validation auc = 0.812168 on epoch 5
+Epoch 6
+round 0 best train auc = 0.985211 on epoch 40
+round 0 best validation auc = 0.904572 on epoch 40
+Epoch 43
+round 0 best train auc = 0.765508 on epoch 1
+round 0 best validation auc = 0.753971 on epoch 1
+Epoch 2
+round 0 best train auc = 0.982443 on epoch 38
+round 0 best validation auc = 0.905740 on epoch 38
+Epoch 39
+round 0 best train auc = 0.976346 on epoch 33
+round 0 best validation auc = 0.901211 on epoch 33
+Epoch 37
+round 0 best train auc = 0.844216 on epoch 6
+round 0 best validation auc = 0.819984 on epoch 6
+Epoch 7
+round 0 best train auc = 0.985211 on epoch 40
+round 0 best validation auc = 0.904572 on epoch 40
+Epoch 44
+round 0 best train auc = 0.788882 on epoch 2
+round 0 best validation auc = 0.772807 on epoch 2
+Epoch 3
+round 0 best train auc = 0.981752 on epoch 37
+round 0 best validation auc = 0.902030 on epoch 37
+Epoch 38
+round 0 best train auc = 0.982443 on epoch 38
+round 0 best validation auc = 0.905740 on epoch 38
+Epoch 40
+round 0 best train auc = 0.855613 on epoch 7
+round 0 best validation auc = 0.829272 on epoch 7
+Epoch 8
+round 0 best train auc = 0.985211 on epoch 40
+round 0 best validation auc = 0.904572 on epoch 40
+Epoch 45
+round 0 best train auc = 0.808535 on epoch 3
+round 0 best validation auc = 0.788587 on epoch 3
+Epoch 4
+round 0 best train auc = 0.981752 on epoch 37
+round 0 best validation auc = 0.902030 on epoch 37
+Epoch 39
+round 0 best train auc = 0.982443 on epoch 38
+round 0 best validation auc = 0.905740 on epoch 38
+Epoch 41
+round 0 best train auc = 0.869566 on epoch 8
+round 0 best validation auc = 0.839182 on epoch 8
+Epoch 9
+round 0 best train auc = 0.985211 on epoch 40
+round 0 best validation auc = 0.904572 on epoch 40
+Epoch 46
+round 0 best train auc = 0.985343 on epoch 39
+round 0 best validation auc = 0.903669 on epoch 39
+Epoch 40
+round 0 best train auc = 0.825233 on epoch 4
+round 0 best validation auc = 0.804050 on epoch 4
+Epoch 5
+round 0 best train auc = 0.982443 on epoch 38
+round 0 best validation auc = 0.905740 on epoch 38
+Epoch 42
+round 0 best train auc = 0.877021 on epoch 9
+round 0 best validation auc = 0.842485 on epoch 9
+Epoch 10
+round 0 best train auc = 0.990837 on epoch 46
+round 0 best validation auc = 0.905385 on epoch 46
+Epoch 47
+round 0 best train auc = 0.985343 on epoch 39
+round 0 best validation auc = 0.903669 on epoch 39
+Epoch 41
+round 0 best train auc = 0.839225 on epoch 5
+round 0 best validation auc = 0.816523 on epoch 5
+Epoch 6
+round 0 best train auc = 0.883351 on epoch 10
+round 0 best validation auc = 0.850430 on epoch 10
+Epoch 11
+round 0 best train auc = 0.982443 on epoch 38
+round 0 best validation auc = 0.905740 on epoch 38
+Epoch 43
+round 0 best train auc = 0.990837 on epoch 46
+round 0 best validation auc = 0.905385 on epoch 46
+Epoch 48
+round 0 best train auc = 0.986205 on epoch 41
+round 0 best validation auc = 0.903920 on epoch 41
+Epoch 42
+round 0 best train auc = 0.848539 on epoch 6
+round 0 best validation auc = 0.819247 on epoch 6
+Epoch 7
+round 0 best train auc = 0.883351 on epoch 10
+round 0 best validation auc = 0.850430 on epoch 10
+Epoch 12
+round 0 best train auc = 0.988488 on epoch 43
+round 0 best validation auc = 0.907092 on epoch 43
+Epoch 44
+round 0 best train auc = 0.990837 on epoch 46
+round 0 best validation auc = 0.905385 on epoch 46
+Epoch 49
+round 0 best train auc = 0.986783 on epoch 42
+round 0 best validation auc = 0.905669 on epoch 42
+Epoch 43
+round 0 best train auc = 0.863093 on epoch 7
+round 0 best validation auc = 0.832075 on epoch 7
+Epoch 8
+round 0 best train auc = 0.892856 on epoch 12
+round 0 best validation auc = 0.854197 on epoch 12
+Epoch 13
+round 0 best train auc = 0.988488 on epoch 43
+round 0 best validation auc = 0.907092 on epoch 43
+Epoch 45
+round 0 best train auc = 0.990837 on epoch 46
+round 0 best validation auc = 0.905385 on epoch 46
+round 0 best train auc = 0.986783 on epoch 42
+round 0 best validation auc = 0.905669 on epoch 42
+Epoch 44
+round 0 best train auc = 0.868376 on epoch 8
+round 0 best validation auc = 0.838149 on epoch 8
+Epoch 9
+round 0 best train auc = 0.900721 on epoch 13
+round 0 best validation auc = 0.859653 on epoch 13
+Epoch 14
+round 0 best train auc = 0.988488 on epoch 43
+round 0 best validation auc = 0.907092 on epoch 43
+Epoch 46
+round 0 best train auc = 0.990314 on epoch 44
+round 0 best validation auc = 0.906493 on epoch 44
+Epoch 45
+round 0 best train auc = 0.878294 on epoch 9
+round 0 best validation auc = 0.843684 on epoch 9
+Epoch 10
+round 0 best train auc = 0.908658 on epoch 14
+round 0 best validation auc = 0.865829 on epoch 14
+Epoch 15
+round 0 best train auc = 0.990738 on epoch 46
+round 0 best validation auc = 0.907913 on epoch 46
+Epoch 47
+round 0 best train auc = 0.991462 on epoch 45
+round 0 best validation auc = 0.907817 on epoch 45
+Epoch 46
+round 0 best train auc = 0.892584 on epoch 10
+round 0 best validation auc = 0.855178 on epoch 10
+Epoch 11
+round 0 best train auc = 0.914733 on epoch 15
+round 0 best validation auc = 0.868157 on epoch 15
+Epoch 16
+round 0 best train auc = 0.990742 on epoch 47
+round 0 best validation auc = 0.908250 on epoch 47
+Epoch 48
+round 0 best train auc = 0.991462 on epoch 45
+round 0 best validation auc = 0.907817 on epoch 45
+Epoch 47
+round 0 best train auc = 0.900092 on epoch 11
+round 0 best validation auc = 0.860978 on epoch 11
+Epoch 12
+round 0 best train auc = 0.923473 on epoch 16
+round 0 best validation auc = 0.875608 on epoch 16
+Epoch 17
+round 0 best train auc = 0.990742 on epoch 47
+round 0 best validation auc = 0.908250 on epoch 47
+Epoch 49
+round 0 best train auc = 0.991462 on epoch 45
+round 0 best validation auc = 0.907817 on epoch 45
+Epoch 48
+round 0 best train auc = 0.900092 on epoch 11
+round 0 best validation auc = 0.860978 on epoch 11
+Epoch 13
+round 0 best train auc = 0.928688 on epoch 17
+round 0 best validation auc = 0.876552 on epoch 17
+Epoch 18
+round 0 best train auc = 0.990742 on epoch 47
+round 0 best validation auc = 0.908250 on epoch 47
+round 0 best train auc = 0.991085 on epoch 48
+round 0 best validation auc = 0.909566 on epoch 48
+Epoch 49
+round 0 best train auc = 0.911478 on epoch 13
+round 0 best validation auc = 0.863551 on epoch 13
+Epoch 14
+round 0 best train auc = 0.928688 on epoch 17
+round 0 best validation auc = 0.876552 on epoch 17
+Epoch 19
+round 0 best train auc = 0.991085 on epoch 48
+round 0 best validation auc = 0.909566 on epoch 48
+round 0 best train auc = 0.916725 on epoch 14
+round 0 best validation auc = 0.867719 on epoch 14
+Epoch 15
+round 0 best train auc = 0.931691 on epoch 19
+round 0 best validation auc = 0.878247 on epoch 19
+Epoch 20
+round 0 best train auc = 0.923015 on epoch 15
+round 0 best validation auc = 0.873237 on epoch 15
+Epoch 16
+round 0 best train auc = 0.931691 on epoch 19
+round 0 best validation auc = 0.878247 on epoch 19
+Epoch 21
+round 0 best train auc = 0.927182 on epoch 16
+round 0 best validation auc = 0.873265 on epoch 16
+Epoch 17
+round 0 best train auc = 0.941058 on epoch 21
+round 0 best validation auc = 0.882774 on epoch 21
+Epoch 22
+round 0 best train auc = 0.934325 on epoch 17
+round 0 best validation auc = 0.880900 on epoch 17
+Epoch 18
+round 0 best train auc = 0.946039 on epoch 22
+round 0 best validation auc = 0.886228 on epoch 22
+Epoch 23
+round 0 best train auc = 0.934325 on epoch 17
+round 0 best validation auc = 0.880900 on epoch 17
+Epoch 19
+round 0 best train auc = 0.952731 on epoch 23
+round 0 best validation auc = 0.887657 on epoch 23
+Epoch 24
+round 0 best train auc = 0.934325 on epoch 17
+round 0 best validation auc = 0.880900 on epoch 17
+Epoch 20
+round 0 best train auc = 0.952885 on epoch 24
+round 0 best validation auc = 0.891186 on epoch 24
+Epoch 25
+round 0 best train auc = 0.943881 on epoch 20
+round 0 best validation auc = 0.883904 on epoch 20
+Epoch 21
+round 0 best train auc = 0.956394 on epoch 25
+round 0 best validation auc = 0.891452 on epoch 25
+Epoch 26
+round 0 best train auc = 0.949557 on epoch 21
+round 0 best validation auc = 0.888495 on epoch 21
+Epoch 22
+round 0 best train auc = 0.956897 on epoch 26
+round 0 best validation auc = 0.894776 on epoch 26
+Epoch 27
+round 0 best train auc = 0.954401 on epoch 22
+round 0 best validation auc = 0.889374 on epoch 22
+Epoch 23
+round 0 best train auc = 0.961204 on epoch 27
+round 0 best validation auc = 0.895081 on epoch 27
+Epoch 28
+round 0 best train auc = 0.954401 on epoch 22
+round 0 best validation auc = 0.889374 on epoch 22
+Epoch 24
+round 0 best train auc = 0.961130 on epoch 28
+round 0 best validation auc = 0.895418 on epoch 28
+Epoch 29
+round 0 best train auc = 0.954401 on epoch 22
+round 0 best validation auc = 0.889374 on epoch 22
+Epoch 25
+round 0 best train auc = 0.965523 on epoch 29
+round 0 best validation auc = 0.899322 on epoch 29
+Epoch 30
+round 0 best train auc = 0.960631 on epoch 25
+round 0 best validation auc = 0.892295 on epoch 25
+Epoch 26
+round 0 best train auc = 0.965523 on epoch 29
+round 0 best validation auc = 0.899322 on epoch 29
+Epoch 31
+round 0 best train auc = 0.965523 on epoch 29
+round 0 best validation auc = 0.899322 on epoch 29
+Epoch 32
+round 0 best train auc = 0.960631 on epoch 25
+round 0 best validation auc = 0.892295 on epoch 25
+Epoch 27
+round 0 best train auc = 0.965523 on epoch 29
+round 0 best validation auc = 0.899322 on epoch 29
+Epoch 33
+round 0 best train auc = 0.964973 on epoch 27
+round 0 best validation auc = 0.894190 on epoch 27
+Epoch 28
+round 0 best train auc = 0.975276 on epoch 33
+round 0 best validation auc = 0.902079 on epoch 33
+Epoch 34
+round 0 best train auc = 0.968866 on epoch 28
+round 0 best validation auc = 0.897360 on epoch 28
+Epoch 29
+round 0 best train auc = 0.976164 on epoch 34
+round 0 best validation auc = 0.902923 on epoch 34
+Epoch 35
+round 0 best train auc = 0.968866 on epoch 28
+round 0 best validation auc = 0.897360 on epoch 28
+Epoch 30
+round 0 best train auc = 0.976164 on epoch 34
+round 0 best validation auc = 0.902923 on epoch 34
+Epoch 36
+round 0 best train auc = 0.968866 on epoch 28
+round 0 best validation auc = 0.897360 on epoch 28
+Epoch 31
+round 0 best train auc = 0.976164 on epoch 34
+round 0 best validation auc = 0.902923 on epoch 34
+Epoch 37
+round 0 best train auc = 0.968866 on epoch 28
+round 0 best validation auc = 0.897360 on epoch 28
+Epoch 32
+round 0 best train auc = 0.976164 on epoch 34
+round 0 best validation auc = 0.902923 on epoch 34
+Epoch 38
+round 0 best train auc = 0.975708 on epoch 32
+round 0 best validation auc = 0.901151 on epoch 32
+Epoch 33
+round 0 best train auc = 0.976164 on epoch 34
+round 0 best validation auc = 0.902923 on epoch 34
+Epoch 39
+round 0 best train auc = 0.975708 on epoch 32
+round 0 best validation auc = 0.901151 on epoch 32
+Epoch 34
+round 0 best train auc = 0.980716 on epoch 39
+round 0 best validation auc = 0.903418 on epoch 39
+Epoch 40
+round 0 best train auc = 0.975708 on epoch 32
+round 0 best validation auc = 0.901151 on epoch 32
+Epoch 35
+round 0 best train auc = 0.985391 on epoch 40
+round 0 best validation auc = 0.906351 on epoch 40
+Epoch 41
+round 0 best train auc = 0.975708 on epoch 32
+round 0 best validation auc = 0.901151 on epoch 32
+Epoch 36
+round 0 best train auc = 0.985391 on epoch 40
+round 0 best validation auc = 0.906351 on epoch 40
+Epoch 42
+round 0 best train auc = 0.981744 on epoch 36
+round 0 best validation auc = 0.902423 on epoch 36
+Epoch 37
+round 0 best train auc = 0.985391 on epoch 40
+round 0 best validation auc = 0.906351 on epoch 40
+Epoch 43
+round 0 best train auc = 0.985018 on epoch 37
+round 0 best validation auc = 0.903694 on epoch 37
+Epoch 38
+round 0 best train auc = 0.985391 on epoch 40
+round 0 best validation auc = 0.906351 on epoch 40
+Epoch 44
+round 0 best train auc = 0.985018 on epoch 37
+round 0 best validation auc = 0.903694 on epoch 37
+Epoch 39
+round 0 best train auc = 0.985391 on epoch 40
+round 0 best validation auc = 0.906351 on epoch 40
+Epoch 45
+round 0 best train auc = 0.985018 on epoch 37
+round 0 best validation auc = 0.903694 on epoch 37
+Epoch 40
+round 0 best train auc = 0.987154 on epoch 45
+round 0 best validation auc = 0.907333 on epoch 45
+Epoch 46
+round 0 best train auc = 0.987093 on epoch 40
+round 0 best validation auc = 0.904161 on epoch 40
+Epoch 41
+round 0 best train auc = 0.987154 on epoch 45
+round 0 best validation auc = 0.907333 on epoch 45
+Epoch 47
+round 0 best train auc = 0.987093 on epoch 40
+round 0 best validation auc = 0.904161 on epoch 40
+Epoch 42
+round 0 best train auc = 0.987154 on epoch 45
+round 0 best validation auc = 0.907333 on epoch 45
+Epoch 48
+round 0 best train auc = 0.988237 on epoch 42
+round 0 best validation auc = 0.905128 on epoch 42
+Epoch 43
+round 0 best train auc = 0.987154 on epoch 45
+round 0 best validation auc = 0.907333 on epoch 45
+Epoch 49
+round 0 best train auc = 0.988237 on epoch 42
+round 0 best validation auc = 0.905128 on epoch 42
+Epoch 44
+round 0 best train auc = 0.987154 on epoch 45
+round 0 best validation auc = 0.907333 on epoch 45
+round 0 best train auc = 0.988237 on epoch 42
+round 0 best validation auc = 0.905128 on epoch 42
+Epoch 45
+round 0 best train auc = 0.988237 on epoch 42
+round 0 best validation auc = 0.905128 on epoch 42
+Epoch 46
+round 0 best train auc = 0.988237 on epoch 42
+round 0 best validation auc = 0.905128 on epoch 42
+Epoch 47
+round 0 best train auc = 0.988237 on epoch 42
+round 0 best validation auc = 0.905128 on epoch 42
+Epoch 48
+round 0 best train auc = 0.988237 on epoch 42
+round 0 best validation auc = 0.905128 on epoch 42
+Epoch 49
+round 0 best train auc = 0.988237 on epoch 42
+round 0 best validation auc = 0.905128 on epoch 42
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --features_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/marketdrug/Plk1-result-14_KNIME.csv --separate_test_features_path ../datasets/marketdrug/Plk1-result-14_KNIME_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --s ../pipeline/marketdrug/Plk1-result-14_model2_firsttrain_05-13_s --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --smiles_column smiles --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --separate_test_path ./Helloworld/media/Plk1-result-14.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --s ../pipeline/marketdrug/test2_s --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --outputfile test_model2.csv --batch_size 500 --smiles_column smiles --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --separate_test_path ./Helloworld/media/Plk1-result-14_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --s ../pipeline/marketdrug/test2_s --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --outputfile test_model2.csv --batch_size 500 --smiles_column smiles --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --separate_test_path ./Helloworld/media/Plk1-result-14_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --s ../pipeline/marketdrug/test2_s --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --outputfile test_model2.csv --batch_size 500 --smiles_column smiles --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --separate_test_path ./Helloworld/media/Plk1-result-14_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --s ../pipeline/marketdrug/test2_s --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --outputfile test_model2.csv --batch_size 500 --smiles_column smiles --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --separate_test_path ./Helloworld/media/Plk1-result-14_KNIME_7HvFL6o.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --s ../pipeline/marketdrug/test2_s --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --outputfile test_model2.csv --batch_size 500 --smiles_column smiles --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --separate_test_path ./Helloworld/media/Plk1-result-14_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --s ../pipeline/marketdrug/test2_s --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --outputfile test_model2.csv --batch_size 500 --smiles_column smiles --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --separate_test_path ./Helloworld/media/Plk1-result-14_KNIME_oS2l4GP.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --s ../pipeline/marketdrug/test2_s --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --outputfile test_model2.csv --batch_size 500 --smiles_column smiles --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --separate_test_path ./Helloworld/media/Plk1-result-14_KNIME_GTqV0Jx.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --s ../pipeline/marketdrug/test2_s --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --outputfile test_model2.csv --batch_size 500 --smiles_column smiles --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --separate_test_path ./Helloworld/media/Plk1-result-14_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --s ../pipeline/marketdrug/test2_s --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --outputfile test_model2.csv --batch_size 500 --smiles_column smiles --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --separate_test_path ./Helloworld/media/Plk1-result-14_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --s ../pipeline/marketdrug/test2_s --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --outputfile test_model2.csv --batch_size 500 --smiles_column smiles --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --separate_test_path ./Helloworld/media/Plk1-result-14_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --s ../pipeline/marketdrug/test2_s --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --outputfile test_model2.csv --batch_size 500 --smiles_column smiles --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --separate_test_path ./Helloworld/media/Plk1-result-14_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --s ../pipeline/marketdrug/test2_s --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --outputfile test_model2.csv --batch_size 500 --smiles_column smiles --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --separate_test_path ./Helloworld/media/Plk1-result-14_KNIME_AjTcNrW.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --s ../pipeline/marketdrug/test2_s --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --outputfile test_model2.csv --batch_size 500 --smiles_column smiles --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --separate_test_path ./Helloworld/media/Plk1-result-14_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --s ../pipeline/marketdrug/test2_s --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --outputfile test_model2.csv --batch_size 500 --smiles_column smiles --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --separate_test_path ./Helloworld/media/Plk1-result-14_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --s ../pipeline/marketdrug/test2_s --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --outputfile test_model2.csv --batch_size 500 --smiles_column smiles --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --separate_test_path ./Helloworld/media/Plk1-result-14_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --s ../pipeline/marketdrug/test2_s --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --outputfile test_model2.csv --batch_size 500 --smiles_column smiles --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --separate_test_path ./Helloworld/media/Plk1-result-14_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --s ../pipeline/marketdrug/test2_s --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --outputfile test_model2.csv --batch_size 500 --smiles_column smiles --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --s ../pipeline/server/test2_s --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --outputfile test_model2.csv --batch_size 500 --smiles_column smiles --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --s ../pipeline/server/test2_s --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --outputfile test_model2.csv --batch_size 500 --smiles_column smiles --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --separate_test_path ../../druglikeness/tmp/ca3e7e99f519f39f9d4b970b061e4958f243b1c2dcd2c779826c98bee0e9f0e9/page17and54_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --outputfile test_model2.csv --batch_size 500 --smiles_column smiles --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --separate_test_path ../../druglikeness/tmp/4b27747f28fbf7c33ec7b17dc337729ddddbefadd22839cfef5b2bcd87f9cce5/Plk1-result-14_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --outputfile test_model2.csv --batch_size 500 --smiles_column smiles --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --separate_test_path ../../druglikeness/tmp/729e32f98b34874ea4863f5517ce6bb3bc57ffc798bf43f7398724be85fa1f26/page17and54_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --outputfile test_model2.csv --batch_size 500 --smiles_column smiles --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --separate_test_path ../../druglikeness/tmp/8569c75f97ddb0c62daef2033d5dbe8f5ba1b5c5757c9f0620aa6f39ba80a864/hello.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --outputfile test_model2.csv --batch_size 500 --smiles_column smiles --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --separate_test_path ../../druglikeness/tmp/38791ea2060a45852a899aa47714ded7d36d654ae04fdffeac548a3dea1f8db1/page17and54_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --outputfile test_model2.csv --batch_size 500 --smiles_column smiles --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --separate_test_path ../../druglikeness/tmp/1a9ffc99465a1d38cdba4782febd60ff1c73a7e7365d76eac402a2d68631e6b7/page17and54_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --outputfile test_model2.csv --batch_size 500 --smiles_column smiles --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --separate_test_path ../../druglikeness/tmp/8e6a6553f75f246e849e6296947054fa47f3f0e8ef205fe34672e19a2f93c57f/page17and54_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --outputfile test_model2.csv --batch_size 500 --smiles_column smiles --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --separate_test_path ../../druglikeness/tmp/2f002f8343bb47a1a1fedff5ee414a09ac7f731ff31a87c3841fb3ca2e37731d/page17and54_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --outputfile test_model2.csv --batch_size 500 --smiles_column smiles --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --separate_test_path ../../druglikeness/tmp/a47b85d9f11d28938db74baeb90fca6921381d780ca6a4a4dd4e31a494b236cf/test_example.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --outputfile test_model2.csv --batch_size 500 --smiles_column smiles --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --separate_test_path ../../druglikeness/tmp/49598479d06125b596882475856971bc681adb5ef88783d0663034b53095952a/test_example.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --outputfile test_model2.csv --batch_size 500 --smiles_column smiles --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --separate_test_path ../../druglikeness/tmp/70bd7b635a119317a33431b5a38b973743241779f4726eb64b4ffe4e9438a28a/test_example.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --outputfile test_model2.csv --batch_size 500 --smiles_column smiles --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --separate_test_path ../../druglikeness/tmp/9c057464b28f6233beb7d0a61844db36799ba9b772d922b7b7cfee1d61d1e8e7/page17and54_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --outputfile test_model2.csv --batch_size 500 --smiles_column smiles --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --separate_test_path ../../druglikeness/tmp/df4519d8e0908d2113577deff08f9c81c2eacfd5a7ab79ab73eae1a6823386a0/test_example.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --outputfile test_model2.csv --batch_size 500 --smiles_column smiles --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/intrial_allainvivo_KNIME_rmnu_11-24_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_active_intrial_allainvivo_nopretrain_firsttrain_05-10 --epochs 50 --separate_test_path ../../druglikeness/tmp/993f33be8613eb54f7b1cfa7260689663c7547a60e84a1664aeac9b1b26308e3/test_example.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 1e-3 --max_lr 1e-3 --final_lr 1e-3 --mode active --depth 2 --hidden_size 300 --ffn_num_layer 2 --outputfile test_model2.csv --batch_size 500 --smiles_column smiles --target_columns label

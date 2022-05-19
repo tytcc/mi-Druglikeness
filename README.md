@@ -1,6 +1,6 @@
 # Drug-likeness predictor
 
-## Table of Contents
+This repository contains code used in paper [Drug-likeness predictor](http)
 
 ## Requirements
 
@@ -14,19 +14,24 @@
 
 The whole frame work supports **train**, **prediction**
 
-### Train
+### Training
+
+To train a model, run:
 
 ```shell
-python train.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/normal_passive_worldaintrials_KNIME_rmnu_dp2_pretrain_leastc_05-18 --epochs 50 --features_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/normal_passive_worldaintrials_KNIME_rmnu_dp2_pretrain_leastc_05-18_s --mode passive --depth 2 --target_columns label
+python train.py --data_path <train_data> --separate_test_path <test_data> --save_dir <model_path> --s <output> --mode <training mode> 
 
 ```
 
-
+where <train_data> is the path to a CSV file containing training data, <test_data> is the path to a CSV file containing test_data, <model_path> is the directory where trained model will be saved, <output> is the directory where results will be saved, <training mode> is one of "normal", "active" or "passive" for normal training, active learning, or passive learning.
 
 ### Prediction
 
 ```shell
-python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --features_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/hepatotoxicity/Hepatotoxicity_KNIME_rmworld.csv --separate_test_features_path ../datasets/hepatotoxicity/Hepatotoxicity_KNIME_rmworld_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/hepatotoxicity/test_active_worldaintrials_firstrain_hepatotoxicity_KNIME_rmworld_s --mode active --depth 2 --smiles_column smiles --target_columns label 
+python predict.py --separate_test_path <test_data> --save_dir <model_path> --outputfile <outputfile> 
 
 ```
 
+where <test_data> is the path to a CSV file containing test data, <model_path> is the directory where trained model is saved, and <outputfile> is the path for prediction results.
+
+we also built a web server for basic predicting. The website is available here:[Druglikeness-Predictor](http) 

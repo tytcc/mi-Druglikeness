@@ -176,7 +176,7 @@ class TrainArgs(CommonArgs):
 
     s: str = None # output path
     m: str=None # load model path
-    mode: str = None # active or passive
+    mode: str = None # active , passive ,normal
     weight_decay: float=0
 
     #new_version 1.3.0

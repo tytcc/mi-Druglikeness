@@ -122,65 +122,12 @@ def split_train_GNN_predict(args,logger,path_save,n):
             for round in range(1):
                 args.round=round
                 net = train_GNN(args)
-                # temperature = joblib.load(os.path.join(args.save_dir, f'fold_{args.fold}',f'round_{args.round}','temperature'))
-                temperature=[1]
-                # temperature 计算
 
                 for iteration in range(30,31):
                     # test_preds=net.predict_GNN_last_tem(test_data,iteration,temperature[iteration],args,logger)
                     # print(len(test_data))
                     # print(np.array(test_preds).shape)
                     test_preds = net.predict_GNN_last(test_data, iteration, args,logger)
-                    # test_preds = net.predict_GNN_last(test_data_rm, iteration, args,logger)
-                    # # temperature scaling
-                    # test_preds_tem,test_preds,temps = net.predict_GNN_last_tem(test_data,val_data, iteration, temperature, args,logger)
-
-                    # print(len(test_preds))
-                    # print(test_preds[0])
-
-                    # me = net.evaluate_GNN(test_preds, test_data, args, logger, metric_list)
-                    # me = net.evaluate_GNN(test_preds, test_data_rm, args, logger, metric_list)
-
-                    # train_preds = net.predict_GNN_last(train_data, iteration, args,logger)
-                    # train_me = net.evaluate_GNN(train_preds, train_data, args, logger, metric_list)
-
-                    # val_preds = net.predict_GNN_last(val_data_rm, iteration, args,logger)
-                    # val_me = net.evaluate_GNN(val_preds, val_data_rm, args, logger, metric_list)
-
-                    # val_preds = net.predict_GNN_last(val_data, iteration, args,logger)
-                    # val_me = net.evaluate_GNN(val_preds, val_data, args, logger, metric_list)
-
-                    # test_preds_tem,test_preds=np.array(test_preds_tem)[:,0],np.array(test_preds)[:,0]
-                    # hard_test_preds,hard_test_preds_tem=copy.deepcopy(test_preds),copy.deepcopy(test_preds_tem)
-                    # hard_test_preds[test_preds < 0.5]=0
-                    # hard_test_preds[test_preds >= 0.5]=1
-                    # hard_test_preds_tem[test_preds_tem < 0.5]=0
-                    # hard_test_preds_tem[test_preds_tem >= 0.5]=1
-                    #
-                    # ece,acc_hist,conf_hist=get_log(test_preds,test_data.targets(),hard_test_preds)
-                    # tem_ece,tem_acc_hist,tem_conf_hist=get_log(test_preds_tem,test_data.targets(),hard_test_preds_tem)
-
-                    # try:
-                    #     os.mkdir(path_save_new+str(round))
-                    # except FileExistsError:
-                    #     pass
-                    # for mm in range(len_metric):
-                    #     results[mm].append(me[metric_list[mm]])
-                    #     # train_results.append(train_me[metric])
-                    #     # val_results[mm].append(val_me[metric_list[mm]])
-
-
-                    
-            for mm in range(len_metric):
-                metric = metric_list[mm]
-                if metric=='accuracy':
-                    metric='acc'
-                joblib.dump(results[mm],path_save_new+str(round)+'/'+metric)
-                # joblib.dump(train_results, path_save_new + str(round) + '/' +'train_'+ metric)
-                # joblib.dump(val_results[mm], path_save_new + str(round) + '/' + 'val_rm_'+metric)
-                # joblib.dump(val_results[mm], path_save_new + str(round) + '/' + 'val_'+metric)
-        # results_all[i]=test_preds
-        # results_all_list[i]=test_preds_tem
 
         results_all_list[i]=test_preds
 

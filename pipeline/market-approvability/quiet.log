@@ -1,0 +1,1610 @@
+Command line
+python train.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-11_firsttrain --epochs 50 --features_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_s --mode active --depth 2 --target_columns label
+iteration 0
+Epoch 0
+round 0 best train auc = 0.760136 on epoch 0
+round 0 best validation auc = 0.742406 on epoch 0
+Epoch 1
+round 0 best train auc = 0.780940 on epoch 1
+round 0 best validation auc = 0.753737 on epoch 1
+Epoch 2
+round 0 best train auc = 0.780940 on epoch 1
+round 0 best validation auc = 0.753737 on epoch 1
+Epoch 3
+round 0 best train auc = 0.807991 on epoch 3
+round 0 best validation auc = 0.767890 on epoch 3
+Epoch 4
+round 0 best train auc = 0.822915 on epoch 4
+round 0 best validation auc = 0.780480 on epoch 4
+Epoch 5
+round 0 best train auc = 0.822915 on epoch 4
+round 0 best validation auc = 0.780480 on epoch 4
+Epoch 6
+round 0 best train auc = 0.841677 on epoch 6
+round 0 best validation auc = 0.786420 on epoch 6
+Epoch 7
+round 0 best train auc = 0.850609 on epoch 7
+round 0 best validation auc = 0.795271 on epoch 7
+Epoch 8
+round 0 best train auc = 0.868654 on epoch 8
+round 0 best validation auc = 0.800025 on epoch 8
+Epoch 9
+round 0 best train auc = 0.873391 on epoch 9
+round 0 best validation auc = 0.806879 on epoch 9
+Epoch 10
+round 0 best train auc = 0.889950 on epoch 10
+round 0 best validation auc = 0.808809 on epoch 10
+Epoch 11
+round 0 best train auc = 0.895583 on epoch 11
+round 0 best validation auc = 0.816203 on epoch 11
+Epoch 12
+round 0 best train auc = 0.905561 on epoch 12
+round 0 best validation auc = 0.816607 on epoch 12
+Epoch 13
+round 0 best train auc = 0.911487 on epoch 13
+round 0 best validation auc = 0.819940 on epoch 13
+Epoch 14
+round 0 best train auc = 0.921103 on epoch 14
+round 0 best validation auc = 0.829237 on epoch 14
+Epoch 15
+round 0 best train auc = 0.930712 on epoch 15
+round 0 best validation auc = 0.831770 on epoch 15
+Epoch 16
+round 0 best train auc = 0.941297 on epoch 16
+round 0 best validation auc = 0.834700 on epoch 16
+Epoch 17
+round 0 best train auc = 0.945156 on epoch 17
+round 0 best validation auc = 0.839581 on epoch 17
+Epoch 18
+round 0 best train auc = 0.950193 on epoch 18
+round 0 best validation auc = 0.840504 on epoch 18
+Epoch 19
+round 0 best train auc = 0.950193 on epoch 18
+round 0 best validation auc = 0.840504 on epoch 18
+Epoch 20
+round 0 best train auc = 0.958230 on epoch 20
+round 0 best validation auc = 0.844165 on epoch 20
+Epoch 21
+round 0 best train auc = 0.965485 on epoch 21
+round 0 best validation auc = 0.849626 on epoch 21
+Epoch 22
+round 0 best train auc = 0.969108 on epoch 22
+round 0 best validation auc = 0.853558 on epoch 22
+Epoch 23
+round 0 best train auc = 0.976185 on epoch 23
+round 0 best validation auc = 0.856815 on epoch 23
+Epoch 24
+round 0 best train auc = 0.976185 on epoch 23
+round 0 best validation auc = 0.856815 on epoch 23
+Epoch 25
+round 0 best train auc = 0.980581 on epoch 25
+round 0 best validation auc = 0.859214 on epoch 25
+Epoch 26
+round 0 best train auc = 0.983248 on epoch 26
+round 0 best validation auc = 0.861588 on epoch 26
+Epoch 27
+round 0 best train auc = 0.987552 on epoch 27
+round 0 best validation auc = 0.865231 on epoch 27
+Epoch 28
+round 0 best train auc = 0.987552 on epoch 27
+round 0 best validation auc = 0.865231 on epoch 27
+Epoch 29
+round 0 best train auc = 0.987552 on epoch 27
+round 0 best validation auc = 0.865231 on epoch 27
+Epoch 30
+round 0 best train auc = 0.987552 on epoch 27
+round 0 best validation auc = 0.865231 on epoch 27
+Epoch 31
+round 0 best train auc = 0.991172 on epoch 31
+round 0 best validation auc = 0.871155 on epoch 31
+Epoch 32
+round 0 best train auc = 0.991172 on epoch 31
+round 0 best validation auc = 0.871155 on epoch 31
+Epoch 33
+round 0 best train auc = 0.991172 on epoch 31
+round 0 best validation auc = 0.871155 on epoch 31
+Epoch 34
+round 0 best train auc = 0.991172 on epoch 31
+round 0 best validation auc = 0.871155 on epoch 31
+Epoch 35
+round 0 best train auc = 0.996189 on epoch 35
+round 0 best validation auc = 0.875054 on epoch 35
+Epoch 36
+round 0 best train auc = 0.996475 on epoch 36
+round 0 best validation auc = 0.875359 on epoch 36
+Epoch 37
+round 0 best train auc = 0.996475 on epoch 36
+round 0 best validation auc = 0.875359 on epoch 36
+Epoch 38
+round 0 best train auc = 0.996475 on epoch 36
+round 0 best validation auc = 0.875359 on epoch 36
+Epoch 39
+round 0 best train auc = 0.998278 on epoch 39
+round 0 best validation auc = 0.876185 on epoch 39
+Epoch 40
+round 0 best train auc = 0.998278 on epoch 39
+round 0 best validation auc = 0.876185 on epoch 39
+Epoch 41
+round 0 best train auc = 0.998278 on epoch 39
+round 0 best validation auc = 0.876185 on epoch 39
+Epoch 42
+round 0 best train auc = 0.998278 on epoch 39
+round 0 best validation auc = 0.876185 on epoch 39
+Epoch 43
+round 0 best train auc = 0.998278 on epoch 39
+round 0 best validation auc = 0.876185 on epoch 39
+Epoch 44
+round 0 best train auc = 0.998278 on epoch 39
+round 0 best validation auc = 0.876185 on epoch 39
+Epoch 45
+round 0 best train auc = 0.999411 on epoch 45
+round 0 best validation auc = 0.877540 on epoch 45
+Epoch 46
+round 0 best train auc = 0.999411 on epoch 45
+round 0 best validation auc = 0.877540 on epoch 45
+Epoch 47
+round 0 best train auc = 0.999411 on epoch 45
+round 0 best validation auc = 0.877540 on epoch 45
+Epoch 48
+round 0 best train auc = 0.999411 on epoch 45
+round 0 best validation auc = 0.877540 on epoch 45
+Epoch 49
+round 0 best train auc = 0.999411 on epoch 45
+round 0 best validation auc = 0.877540 on epoch 45
+iteration 0
+Epoch 0
+round 0 best train auc = 0.757436 on epoch 0
+round 0 best validation auc = 0.775624 on epoch 0
+Epoch 1
+round 0 best train auc = 0.774095 on epoch 1
+round 0 best validation auc = 0.782622 on epoch 1
+Epoch 2
+round 0 best train auc = 0.781112 on epoch 2
+round 0 best validation auc = 0.787398 on epoch 2
+Epoch 3
+round 0 best train auc = 0.799616 on epoch 3
+round 0 best validation auc = 0.795632 on epoch 3
+Epoch 4
+round 0 best train auc = 0.810576 on epoch 4
+round 0 best validation auc = 0.799317 on epoch 4
+Epoch 5
+round 0 best train auc = 0.825320 on epoch 5
+round 0 best validation auc = 0.812896 on epoch 5
+Epoch 6
+round 0 best train auc = 0.835288 on epoch 6
+round 0 best validation auc = 0.814747 on epoch 6
+Epoch 7
+round 0 best train auc = 0.845036 on epoch 7
+round 0 best validation auc = 0.822591 on epoch 7
+Epoch 8
+round 0 best train auc = 0.861019 on epoch 8
+round 0 best validation auc = 0.828140 on epoch 8
+Epoch 9
+round 0 best train auc = 0.871820 on epoch 9
+round 0 best validation auc = 0.830854 on epoch 9
+Epoch 10
+round 0 best train auc = 0.874731 on epoch 10
+round 0 best validation auc = 0.833260 on epoch 10
+Epoch 11
+round 0 best train auc = 0.874731 on epoch 10
+round 0 best validation auc = 0.833260 on epoch 10
+Epoch 12
+round 0 best train auc = 0.899629 on epoch 12
+round 0 best validation auc = 0.834551 on epoch 12
+Epoch 13
+round 0 best train auc = 0.911110 on epoch 13
+round 0 best validation auc = 0.839684 on epoch 13
+Epoch 14
+round 0 best train auc = 0.920704 on epoch 14
+round 0 best validation auc = 0.851620 on epoch 14
+Epoch 15
+round 0 best train auc = 0.920704 on epoch 14
+round 0 best validation auc = 0.851620 on epoch 14
+Epoch 16
+round 0 best train auc = 0.931025 on epoch 16
+round 0 best validation auc = 0.855636 on epoch 16
+Epoch 17
+round 0 best train auc = 0.939153 on epoch 17
+round 0 best validation auc = 0.856664 on epoch 17
+Epoch 18
+round 0 best train auc = 0.951146 on epoch 18
+round 0 best validation auc = 0.859401 on epoch 18
+Epoch 19
+round 0 best train auc = 0.951146 on epoch 18
+round 0 best validation auc = 0.859401 on epoch 18
+Epoch 20
+round 0 best train auc = 0.961565 on epoch 20
+round 0 best validation auc = 0.865287 on epoch 20
+Epoch 21
+round 0 best train auc = 0.961565 on epoch 20
+round 0 best validation auc = 0.865287 on epoch 20
+Epoch 22
+round 0 best train auc = 0.961565 on epoch 20
+round 0 best validation auc = 0.865287 on epoch 20
+Epoch 23
+round 0 best train auc = 0.961565 on epoch 20
+round 0 best validation auc = 0.865287 on epoch 20
+Epoch 24
+round 0 best train auc = 0.974475 on epoch 24
+round 0 best validation auc = 0.868937 on epoch 24
+Epoch 25
+round 0 best train auc = 0.973996 on epoch 25
+round 0 best validation auc = 0.873331 on epoch 25
+Epoch 26
+round 0 best train auc = 0.980629 on epoch 26
+round 0 best validation auc = 0.873818 on epoch 26
+Epoch 27
+round 0 best train auc = 0.980629 on epoch 26
+round 0 best validation auc = 0.873818 on epoch 26
+Epoch 28
+round 0 best train auc = 0.980629 on epoch 26
+round 0 best validation auc = 0.873818 on epoch 26
+Epoch 29
+round 0 best train auc = 0.980629 on epoch 26
+round 0 best validation auc = 0.873818 on epoch 26
+Epoch 30
+round 0 best train auc = 0.991068 on epoch 30
+round 0 best validation auc = 0.875304 on epoch 30
+Epoch 31
+round 0 best train auc = 0.990926 on epoch 31
+round 0 best validation auc = 0.876084 on epoch 31
+Epoch 32
+round 0 best train auc = 0.990926 on epoch 31
+round 0 best validation auc = 0.876084 on epoch 31
+Epoch 33
+round 0 best train auc = 0.994857 on epoch 33
+round 0 best validation auc = 0.879316 on epoch 33
+Epoch 34
+round 0 best train auc = 0.994857 on epoch 33
+round 0 best validation auc = 0.879316 on epoch 33
+Epoch 35
+round 0 best train auc = 0.994857 on epoch 33
+round 0 best validation auc = 0.879316 on epoch 33
+Epoch 36
+round 0 best train auc = 0.994857 on epoch 33
+round 0 best validation auc = 0.879316 on epoch 33
+Epoch 37
+round 0 best train auc = 0.994857 on epoch 33
+round 0 best validation auc = 0.879316 on epoch 33
+Epoch 38
+round 0 best train auc = 0.994857 on epoch 33
+round 0 best validation auc = 0.879316 on epoch 33
+Epoch 39
+round 0 best train auc = 0.994857 on epoch 33
+round 0 best validation auc = 0.879316 on epoch 33
+Epoch 40
+round 0 best train auc = 0.994857 on epoch 33
+round 0 best validation auc = 0.879316 on epoch 33
+Epoch 41
+round 0 best train auc = 0.994857 on epoch 33
+round 0 best validation auc = 0.879316 on epoch 33
+Epoch 42
+round 0 best train auc = 0.994857 on epoch 33
+round 0 best validation auc = 0.879316 on epoch 33
+Epoch 43
+round 0 best train auc = 0.998344 on epoch 43
+round 0 best validation auc = 0.879656 on epoch 43
+Epoch 44
+round 0 best train auc = 0.998344 on epoch 43
+round 0 best validation auc = 0.879656 on epoch 43
+Epoch 45
+round 0 best train auc = 0.998344 on epoch 43
+round 0 best validation auc = 0.879656 on epoch 43
+Epoch 46
+round 0 best train auc = 0.998344 on epoch 43
+round 0 best validation auc = 0.879656 on epoch 43
+Epoch 47
+round 0 best train auc = 0.998344 on epoch 43
+round 0 best validation auc = 0.879656 on epoch 43
+Epoch 48
+round 0 best train auc = 0.998344 on epoch 43
+round 0 best validation auc = 0.879656 on epoch 43
+Epoch 49
+round 0 best train auc = 0.998344 on epoch 43
+round 0 best validation auc = 0.879656 on epoch 43
+iteration 0
+Epoch 0
+round 0 best train auc = 0.758367 on epoch 0
+round 0 best validation auc = 0.748080 on epoch 0
+Epoch 1
+round 0 best train auc = 0.773676 on epoch 1
+round 0 best validation auc = 0.758527 on epoch 1
+Epoch 2
+round 0 best train auc = 0.779821 on epoch 2
+round 0 best validation auc = 0.761531 on epoch 2
+Epoch 3
+round 0 best train auc = 0.809717 on epoch 3
+round 0 best validation auc = 0.782352 on epoch 3
+Epoch 4
+round 0 best train auc = 0.818011 on epoch 4
+round 0 best validation auc = 0.787259 on epoch 4
+Epoch 5
+round 0 best train auc = 0.827845 on epoch 5
+round 0 best validation auc = 0.791967 on epoch 5
+Epoch 6
+round 0 best train auc = 0.835547 on epoch 6
+round 0 best validation auc = 0.794513 on epoch 6
+Epoch 7
+round 0 best train auc = 0.846754 on epoch 7
+round 0 best validation auc = 0.801159 on epoch 7
+Epoch 8
+round 0 best train auc = 0.865065 on epoch 8
+round 0 best validation auc = 0.810340 on epoch 8
+Epoch 9
+round 0 best train auc = 0.872420 on epoch 9
+round 0 best validation auc = 0.817214 on epoch 9
+Epoch 10
+round 0 best train auc = 0.872420 on epoch 9
+round 0 best validation auc = 0.817214 on epoch 9
+Epoch 11
+round 0 best train auc = 0.888806 on epoch 11
+round 0 best validation auc = 0.822352 on epoch 11
+Epoch 12
+round 0 best train auc = 0.903074 on epoch 12
+round 0 best validation auc = 0.829407 on epoch 12
+Epoch 13
+round 0 best train auc = 0.910950 on epoch 13
+round 0 best validation auc = 0.834419 on epoch 13
+Epoch 14
+round 0 best train auc = 0.923802 on epoch 14
+round 0 best validation auc = 0.842141 on epoch 14
+Epoch 15
+round 0 best train auc = 0.926934 on epoch 15
+round 0 best validation auc = 0.844436 on epoch 15
+Epoch 16
+round 0 best train auc = 0.935494 on epoch 16
+round 0 best validation auc = 0.847884 on epoch 16
+Epoch 17
+round 0 best train auc = 0.938136 on epoch 17
+round 0 best validation auc = 0.850559 on epoch 17
+Epoch 18
+round 0 best train auc = 0.951993 on epoch 18
+round 0 best validation auc = 0.857624 on epoch 18
+Epoch 19
+round 0 best train auc = 0.960245 on epoch 19
+round 0 best validation auc = 0.859784 on epoch 19
+Epoch 20
+round 0 best train auc = 0.960245 on epoch 19
+round 0 best validation auc = 0.859784 on epoch 19
+Epoch 21
+round 0 best train auc = 0.960245 on epoch 19
+round 0 best validation auc = 0.859784 on epoch 19
+Epoch 22
+round 0 best train auc = 0.969661 on epoch 22
+round 0 best validation auc = 0.863464 on epoch 22
+Epoch 23
+round 0 best train auc = 0.975595 on epoch 23
+round 0 best validation auc = 0.864690 on epoch 23
+Epoch 24
+round 0 best train auc = 0.975595 on epoch 23
+round 0 best validation auc = 0.864690 on epoch 23
+Epoch 25
+round 0 best train auc = 0.975595 on epoch 23
+round 0 best validation auc = 0.864690 on epoch 23
+Epoch 26
+round 0 best train auc = 0.981166 on epoch 26
+round 0 best validation auc = 0.869325 on epoch 26
+Epoch 27
+round 0 best train auc = 0.981166 on epoch 26
+round 0 best validation auc = 0.869325 on epoch 26
+Epoch 28
+round 0 best train auc = 0.981166 on epoch 26
+round 0 best validation auc = 0.869325 on epoch 26
+Epoch 29
+round 0 best train auc = 0.981166 on epoch 26
+round 0 best validation auc = 0.869325 on epoch 26
+Epoch 30
+round 0 best train auc = 0.981166 on epoch 26
+round 0 best validation auc = 0.869325 on epoch 26
+Epoch 31
+round 0 best train auc = 0.981166 on epoch 26
+round 0 best validation auc = 0.869325 on epoch 26
+Epoch 32
+round 0 best train auc = 0.993697 on epoch 32
+round 0 best validation auc = 0.870307 on epoch 32
+Epoch 33
+round 0 best train auc = 0.993434 on epoch 33
+round 0 best validation auc = 0.870692 on epoch 33
+Epoch 34
+round 0 best train auc = 0.995050 on epoch 34
+round 0 best validation auc = 0.871138 on epoch 34
+Epoch 35
+round 0 best train auc = 0.995050 on epoch 34
+round 0 best validation auc = 0.871138 on epoch 34
+Epoch 36
+round 0 best train auc = 0.995050 on epoch 34
+round 0 best validation auc = 0.871138 on epoch 34
+Epoch 37
+round 0 best train auc = 0.995050 on epoch 34
+round 0 best validation auc = 0.871138 on epoch 34
+Epoch 38
+round 0 best train auc = 0.996389 on epoch 38
+round 0 best validation auc = 0.871865 on epoch 38
+Epoch 39
+round 0 best train auc = 0.996389 on epoch 38
+round 0 best validation auc = 0.871865 on epoch 38
+Epoch 40
+round 0 best train auc = 0.999040 on epoch 40
+round 0 best validation auc = 0.872527 on epoch 40
+Epoch 41
+round 0 best train auc = 0.999040 on epoch 40
+round 0 best validation auc = 0.872527 on epoch 40
+Epoch 42
+round 0 best train auc = 0.999040 on epoch 40
+round 0 best validation auc = 0.872527 on epoch 40
+Epoch 43
+round 0 best train auc = 0.999225 on epoch 43
+round 0 best validation auc = 0.874031 on epoch 43
+Epoch 44
+round 0 best train auc = 0.999225 on epoch 43
+round 0 best validation auc = 0.874031 on epoch 43
+Epoch 45
+round 0 best train auc = 0.999225 on epoch 43
+round 0 best validation auc = 0.874031 on epoch 43
+Epoch 46
+round 0 best train auc = 0.999225 on epoch 43
+round 0 best validation auc = 0.874031 on epoch 43
+Epoch 47
+round 0 best train auc = 0.999225 on epoch 43
+round 0 best validation auc = 0.874031 on epoch 43
+Epoch 48
+round 0 best train auc = 0.999225 on epoch 43
+round 0 best validation auc = 0.874031 on epoch 43
+Epoch 49
+round 0 best train auc = 0.999225 on epoch 43
+round 0 best validation auc = 0.874031 on epoch 43
+iteration 0
+Epoch 0
+round 0 best train auc = 0.757147 on epoch 0
+round 0 best validation auc = 0.768391 on epoch 0
+Epoch 1
+round 0 best train auc = 0.779483 on epoch 1
+round 0 best validation auc = 0.784421 on epoch 1
+Epoch 2
+round 0 best train auc = 0.779483 on epoch 1
+round 0 best validation auc = 0.784421 on epoch 1
+Epoch 3
+round 0 best train auc = 0.804352 on epoch 3
+round 0 best validation auc = 0.801009 on epoch 3
+Epoch 4
+round 0 best train auc = 0.812415 on epoch 4
+round 0 best validation auc = 0.805484 on epoch 4
+Epoch 5
+round 0 best train auc = 0.828662 on epoch 5
+round 0 best validation auc = 0.813437 on epoch 5
+Epoch 6
+round 0 best train auc = 0.841368 on epoch 6
+round 0 best validation auc = 0.822071 on epoch 6
+Epoch 7
+round 0 best train auc = 0.849919 on epoch 7
+round 0 best validation auc = 0.828574 on epoch 7
+Epoch 8
+round 0 best train auc = 0.866302 on epoch 8
+round 0 best validation auc = 0.835065 on epoch 8
+Epoch 9
+round 0 best train auc = 0.866302 on epoch 8
+round 0 best validation auc = 0.835065 on epoch 8
+Epoch 10
+round 0 best train auc = 0.881504 on epoch 10
+round 0 best validation auc = 0.842916 on epoch 10
+Epoch 11
+round 0 best train auc = 0.881504 on epoch 10
+round 0 best validation auc = 0.842916 on epoch 10
+Epoch 12
+round 0 best train auc = 0.909339 on epoch 12
+round 0 best validation auc = 0.853436 on epoch 12
+Epoch 13
+round 0 best train auc = 0.911435 on epoch 13
+round 0 best validation auc = 0.856921 on epoch 13
+Epoch 14
+round 0 best train auc = 0.911435 on epoch 13
+round 0 best validation auc = 0.856921 on epoch 13
+Epoch 15
+round 0 best train auc = 0.927574 on epoch 15
+round 0 best validation auc = 0.858837 on epoch 15
+Epoch 16
+round 0 best train auc = 0.928676 on epoch 16
+round 0 best validation auc = 0.866997 on epoch 16
+Epoch 17
+round 0 best train auc = 0.938370 on epoch 17
+round 0 best validation auc = 0.868455 on epoch 17
+Epoch 18
+round 0 best train auc = 0.946492 on epoch 18
+round 0 best validation auc = 0.871276 on epoch 18
+Epoch 19
+round 0 best train auc = 0.950080 on epoch 19
+round 0 best validation auc = 0.872604 on epoch 19
+Epoch 20
+round 0 best train auc = 0.950080 on epoch 19
+round 0 best validation auc = 0.872604 on epoch 19
+Epoch 21
+round 0 best train auc = 0.960096 on epoch 21
+round 0 best validation auc = 0.882659 on epoch 21
+Epoch 22
+round 0 best train auc = 0.960096 on epoch 21
+round 0 best validation auc = 0.882659 on epoch 21
+Epoch 23
+round 0 best train auc = 0.973120 on epoch 23
+round 0 best validation auc = 0.883257 on epoch 23
+Epoch 24
+round 0 best train auc = 0.973120 on epoch 23
+round 0 best validation auc = 0.883257 on epoch 23
+Epoch 25
+round 0 best train auc = 0.973120 on epoch 23
+round 0 best validation auc = 0.883257 on epoch 23
+Epoch 26
+round 0 best train auc = 0.979922 on epoch 26
+round 0 best validation auc = 0.883796 on epoch 26
+Epoch 27
+round 0 best train auc = 0.979922 on epoch 26
+round 0 best validation auc = 0.883796 on epoch 26
+Epoch 28
+round 0 best train auc = 0.980612 on epoch 28
+round 0 best validation auc = 0.886249 on epoch 28
+Epoch 29
+round 0 best train auc = 0.980612 on epoch 28
+round 0 best validation auc = 0.886249 on epoch 28
+Epoch 30
+round 0 best train auc = 0.980612 on epoch 28
+round 0 best validation auc = 0.886249 on epoch 28
+Epoch 31
+round 0 best train auc = 0.980612 on epoch 28
+round 0 best validation auc = 0.886249 on epoch 28
+Epoch 32
+round 0 best train auc = 0.990393 on epoch 32
+round 0 best validation auc = 0.888295 on epoch 32
+Epoch 33
+round 0 best train auc = 0.990393 on epoch 32
+round 0 best validation auc = 0.888295 on epoch 32
+Epoch 34
+round 0 best train auc = 0.990393 on epoch 32
+round 0 best validation auc = 0.888295 on epoch 32
+Epoch 35
+round 0 best train auc = 0.992879 on epoch 35
+round 0 best validation auc = 0.888857 on epoch 35
+Epoch 36
+round 0 best train auc = 0.996641 on epoch 36
+round 0 best validation auc = 0.889375 on epoch 36
+Epoch 37
+round 0 best train auc = 0.996641 on epoch 36
+round 0 best validation auc = 0.889375 on epoch 36
+Epoch 38
+round 0 best train auc = 0.996712 on epoch 38
+round 0 best validation auc = 0.891310 on epoch 38
+Epoch 39
+round 0 best train auc = 0.996712 on epoch 38
+round 0 best validation auc = 0.891310 on epoch 38
+Epoch 40
+round 0 best train auc = 0.996712 on epoch 38
+round 0 best validation auc = 0.891310 on epoch 38
+Epoch 41
+round 0 best train auc = 0.996712 on epoch 38
+round 0 best validation auc = 0.891310 on epoch 38
+Epoch 42
+round 0 best train auc = 0.996712 on epoch 38
+round 0 best validation auc = 0.891310 on epoch 38
+Epoch 43
+round 0 best train auc = 0.996712 on epoch 38
+round 0 best validation auc = 0.891310 on epoch 38
+Epoch 44
+round 0 best train auc = 0.996712 on epoch 38
+round 0 best validation auc = 0.891310 on epoch 38
+Epoch 45
+round 0 best train auc = 0.996712 on epoch 38
+round 0 best validation auc = 0.891310 on epoch 38
+Epoch 46
+round 0 best train auc = 0.996712 on epoch 38
+round 0 best validation auc = 0.891310 on epoch 38
+Epoch 47
+round 0 best train auc = 0.996712 on epoch 38
+round 0 best validation auc = 0.891310 on epoch 38
+Epoch 48
+round 0 best train auc = 0.996712 on epoch 38
+round 0 best validation auc = 0.891310 on epoch 38
+Epoch 49
+round 0 best train auc = 0.996712 on epoch 38
+round 0 best validation auc = 0.891310 on epoch 38
+iteration 0
+Epoch 0
+round 0 best train auc = 0.759640 on epoch 0
+round 0 best validation auc = 0.760849 on epoch 0
+Epoch 1
+round 0 best train auc = 0.776653 on epoch 1
+round 0 best validation auc = 0.772342 on epoch 1
+Epoch 2
+round 0 best train auc = 0.791307 on epoch 2
+round 0 best validation auc = 0.783986 on epoch 2
+Epoch 3
+round 0 best train auc = 0.805911 on epoch 3
+round 0 best validation auc = 0.793208 on epoch 3
+Epoch 4
+round 0 best train auc = 0.805911 on epoch 3
+round 0 best validation auc = 0.793208 on epoch 3
+Epoch 5
+round 0 best train auc = 0.830200 on epoch 5
+round 0 best validation auc = 0.806134 on epoch 5
+Epoch 6
+round 0 best train auc = 0.842458 on epoch 6
+round 0 best validation auc = 0.813462 on epoch 6
+Epoch 7
+round 0 best train auc = 0.854375 on epoch 7
+round 0 best validation auc = 0.819311 on epoch 7
+Epoch 8
+round 0 best train auc = 0.864232 on epoch 8
+round 0 best validation auc = 0.819330 on epoch 8
+Epoch 9
+round 0 best train auc = 0.873693 on epoch 9
+round 0 best validation auc = 0.827368 on epoch 9
+Epoch 10
+round 0 best train auc = 0.885302 on epoch 10
+round 0 best validation auc = 0.834737 on epoch 10
+Epoch 11
+round 0 best train auc = 0.897002 on epoch 11
+round 0 best validation auc = 0.837810 on epoch 11
+Epoch 12
+round 0 best train auc = 0.905316 on epoch 12
+round 0 best validation auc = 0.841223 on epoch 12
+Epoch 13
+round 0 best train auc = 0.911528 on epoch 13
+round 0 best validation auc = 0.844422 on epoch 13
+Epoch 14
+round 0 best train auc = 0.915273 on epoch 14
+round 0 best validation auc = 0.847656 on epoch 14
+Epoch 15
+round 0 best train auc = 0.927429 on epoch 15
+round 0 best validation auc = 0.853069 on epoch 15
+Epoch 16
+round 0 best train auc = 0.935542 on epoch 16
+round 0 best validation auc = 0.855253 on epoch 16
+Epoch 17
+round 0 best train auc = 0.935542 on epoch 16
+round 0 best validation auc = 0.855253 on epoch 16
+Epoch 18
+round 0 best train auc = 0.950445 on epoch 18
+round 0 best validation auc = 0.861762 on epoch 18
+Epoch 19
+round 0 best train auc = 0.950445 on epoch 18
+round 0 best validation auc = 0.861762 on epoch 18
+Epoch 20
+round 0 best train auc = 0.960469 on epoch 20
+round 0 best validation auc = 0.865300 on epoch 20
+Epoch 21
+round 0 best train auc = 0.960469 on epoch 20
+round 0 best validation auc = 0.865300 on epoch 20
+Epoch 22
+round 0 best train auc = 0.969461 on epoch 22
+round 0 best validation auc = 0.869654 on epoch 22
+Epoch 23
+round 0 best train auc = 0.973084 on epoch 23
+round 0 best validation auc = 0.870122 on epoch 23
+Epoch 24
+round 0 best train auc = 0.977421 on epoch 24
+round 0 best validation auc = 0.872114 on epoch 24
+Epoch 25
+round 0 best train auc = 0.977421 on epoch 24
+round 0 best validation auc = 0.872114 on epoch 24
+Epoch 26
+round 0 best train auc = 0.982150 on epoch 26
+round 0 best validation auc = 0.872382 on epoch 26
+Epoch 27
+round 0 best train auc = 0.986165 on epoch 27
+round 0 best validation auc = 0.873234 on epoch 27
+Epoch 28
+round 0 best train auc = 0.986165 on epoch 27
+round 0 best validation auc = 0.873234 on epoch 27
+Epoch 29
+round 0 best train auc = 0.983712 on epoch 29
+round 0 best validation auc = 0.873978 on epoch 29
+Epoch 30
+round 0 best train auc = 0.987774 on epoch 30
+round 0 best validation auc = 0.876607 on epoch 30
+Epoch 31
+round 0 best train auc = 0.989601 on epoch 31
+round 0 best validation auc = 0.880744 on epoch 31
+Epoch 32
+round 0 best train auc = 0.989601 on epoch 31
+round 0 best validation auc = 0.880744 on epoch 31
+Epoch 33
+round 0 best train auc = 0.989601 on epoch 31
+round 0 best validation auc = 0.880744 on epoch 31
+Epoch 34
+round 0 best train auc = 0.989601 on epoch 31
+round 0 best validation auc = 0.880744 on epoch 31
+Epoch 35
+round 0 best train auc = 0.996353 on epoch 35
+round 0 best validation auc = 0.881859 on epoch 35
+Epoch 36
+round 0 best train auc = 0.996353 on epoch 35
+round 0 best validation auc = 0.881859 on epoch 35
+Epoch 37
+round 0 best train auc = 0.996068 on epoch 37
+round 0 best validation auc = 0.882091 on epoch 37
+Epoch 38
+round 0 best train auc = 0.996068 on epoch 37
+round 0 best validation auc = 0.882091 on epoch 37
+Epoch 39
+round 0 best train auc = 0.996068 on epoch 37
+round 0 best validation auc = 0.882091 on epoch 37
+Epoch 40
+round 0 best train auc = 0.996068 on epoch 37
+round 0 best validation auc = 0.882091 on epoch 37
+Epoch 41
+round 0 best train auc = 0.996068 on epoch 37
+round 0 best validation auc = 0.882091 on epoch 37
+Epoch 42
+round 0 best train auc = 0.996068 on epoch 37
+round 0 best validation auc = 0.882091 on epoch 37
+Epoch 43
+round 0 best train auc = 0.998923 on epoch 43
+round 0 best validation auc = 0.884123 on epoch 43
+Epoch 44
+round 0 best train auc = 0.998923 on epoch 43
+round 0 best validation auc = 0.884123 on epoch 43
+Epoch 45
+round 0 best train auc = 0.998923 on epoch 43
+round 0 best validation auc = 0.884123 on epoch 43
+Epoch 46
+round 0 best train auc = 0.998923 on epoch 43
+round 0 best validation auc = 0.884123 on epoch 43
+Epoch 47
+round 0 best train auc = 0.998923 on epoch 43
+round 0 best validation auc = 0.884123 on epoch 43
+Epoch 48
+round 0 best train auc = 0.998923 on epoch 43
+round 0 best validation auc = 0.884123 on epoch 43
+Epoch 49
+round 0 best train auc = 0.998923 on epoch 43
+round 0 best validation auc = 0.884123 on epoch 43
+iteration 0
+Epoch 0
+round 0 best train auc = 0.760370 on epoch 0
+round 0 best validation auc = 0.754837 on epoch 0
+Epoch 1
+round 0 best train auc = 0.785434 on epoch 1
+round 0 best validation auc = 0.773160 on epoch 1
+Epoch 2
+round 0 best train auc = 0.788686 on epoch 2
+round 0 best validation auc = 0.776573 on epoch 2
+Epoch 3
+round 0 best train auc = 0.804184 on epoch 3
+round 0 best validation auc = 0.784377 on epoch 3
+Epoch 4
+round 0 best train auc = 0.818810 on epoch 4
+round 0 best validation auc = 0.795211 on epoch 4
+Epoch 5
+round 0 best train auc = 0.825102 on epoch 5
+round 0 best validation auc = 0.800995 on epoch 5
+Epoch 6
+round 0 best train auc = 0.841679 on epoch 6
+round 0 best validation auc = 0.806168 on epoch 6
+Epoch 7
+round 0 best train auc = 0.851483 on epoch 7
+round 0 best validation auc = 0.814435 on epoch 7
+Epoch 8
+round 0 best train auc = 0.865311 on epoch 8
+round 0 best validation auc = 0.821936 on epoch 8
+Epoch 9
+round 0 best train auc = 0.874245 on epoch 9
+round 0 best validation auc = 0.828186 on epoch 9
+Epoch 10
+round 0 best train auc = 0.888001 on epoch 10
+round 0 best validation auc = 0.829828 on epoch 10
+Epoch 11
+round 0 best train auc = 0.895001 on epoch 11
+round 0 best validation auc = 0.834885 on epoch 11
+Epoch 12
+round 0 best train auc = 0.903808 on epoch 12
+round 0 best validation auc = 0.841845 on epoch 12
+Epoch 13
+round 0 best train auc = 0.903808 on epoch 12
+round 0 best validation auc = 0.841845 on epoch 12
+Epoch 14
+round 0 best train auc = 0.915611 on epoch 14
+round 0 best validation auc = 0.845612 on epoch 14
+Epoch 15
+round 0 best train auc = 0.921500 on epoch 15
+round 0 best validation auc = 0.845948 on epoch 15
+Epoch 16
+round 0 best train auc = 0.942974 on epoch 16
+round 0 best validation auc = 0.854264 on epoch 16
+Epoch 17
+round 0 best train auc = 0.940685 on epoch 17
+round 0 best validation auc = 0.854755 on epoch 17
+Epoch 18
+round 0 best train auc = 0.953589 on epoch 18
+round 0 best validation auc = 0.858653 on epoch 18
+Epoch 19
+round 0 best train auc = 0.953589 on epoch 18
+round 0 best validation auc = 0.858653 on epoch 18
+Epoch 20
+round 0 best train auc = 0.965015 on epoch 20
+round 0 best validation auc = 0.862348 on epoch 20
+Epoch 21
+round 0 best train auc = 0.966887 on epoch 21
+round 0 best validation auc = 0.863006 on epoch 21
+Epoch 22
+round 0 best train auc = 0.966338 on epoch 22
+round 0 best validation auc = 0.866130 on epoch 22
+Epoch 23
+round 0 best train auc = 0.973896 on epoch 23
+round 0 best validation auc = 0.868263 on epoch 23
+Epoch 24
+round 0 best train auc = 0.973896 on epoch 23
+round 0 best validation auc = 0.868263 on epoch 23
+Epoch 25
+round 0 best train auc = 0.980048 on epoch 25
+round 0 best validation auc = 0.870372 on epoch 25
+Epoch 26
+round 0 best train auc = 0.977837 on epoch 26
+round 0 best validation auc = 0.871817 on epoch 26
+Epoch 27
+round 0 best train auc = 0.982713 on epoch 27
+round 0 best validation auc = 0.873656 on epoch 27
+Epoch 28
+round 0 best train auc = 0.987010 on epoch 28
+round 0 best validation auc = 0.873859 on epoch 28
+Epoch 29
+round 0 best train auc = 0.988072 on epoch 29
+round 0 best validation auc = 0.875170 on epoch 29
+Epoch 30
+round 0 best train auc = 0.989723 on epoch 30
+round 0 best validation auc = 0.878973 on epoch 30
+Epoch 31
+round 0 best train auc = 0.989723 on epoch 30
+round 0 best validation auc = 0.878973 on epoch 30
+Epoch 32
+round 0 best train auc = 0.989723 on epoch 30
+round 0 best validation auc = 0.878973 on epoch 30
+Epoch 33
+round 0 best train auc = 0.989723 on epoch 30
+round 0 best validation auc = 0.878973 on epoch 30
+Epoch 34
+round 0 best train auc = 0.989723 on epoch 30
+round 0 best validation auc = 0.878973 on epoch 30
+Epoch 35
+round 0 best train auc = 0.989723 on epoch 30
+round 0 best validation auc = 0.878973 on epoch 30
+Epoch 36
+round 0 best train auc = 0.989723 on epoch 30
+round 0 best validation auc = 0.878973 on epoch 30
+Epoch 37
+round 0 best train auc = 0.996774 on epoch 37
+round 0 best validation auc = 0.880151 on epoch 37
+Epoch 38
+round 0 best train auc = 0.997383 on epoch 38
+round 0 best validation auc = 0.881572 on epoch 38
+Epoch 39
+round 0 best train auc = 0.997383 on epoch 38
+round 0 best validation auc = 0.881572 on epoch 38
+Epoch 40
+round 0 best train auc = 0.997383 on epoch 38
+round 0 best validation auc = 0.881572 on epoch 38
+Epoch 41
+round 0 best train auc = 0.997383 on epoch 38
+round 0 best validation auc = 0.881572 on epoch 38
+Epoch 42
+round 0 best train auc = 0.997383 on epoch 38
+round 0 best validation auc = 0.881572 on epoch 38
+Epoch 43
+round 0 best train auc = 0.997383 on epoch 38
+round 0 best validation auc = 0.881572 on epoch 38
+Epoch 44
+round 0 best train auc = 0.997383 on epoch 38
+round 0 best validation auc = 0.881572 on epoch 38
+Epoch 45
+round 0 best train auc = 0.997383 on epoch 38
+round 0 best validation auc = 0.881572 on epoch 38
+Epoch 46
+round 0 best train auc = 0.999282 on epoch 46
+round 0 best validation auc = 0.882909 on epoch 46
+Epoch 47
+round 0 best train auc = 0.999282 on epoch 46
+round 0 best validation auc = 0.882909 on epoch 46
+Epoch 48
+round 0 best train auc = 0.999282 on epoch 46
+round 0 best validation auc = 0.882909 on epoch 46
+Epoch 49
+round 0 best train auc = 0.999761 on epoch 49
+round 0 best validation auc = 0.883465 on epoch 49
+iteration 0
+Epoch 0
+round 0 best train auc = 0.767849 on epoch 0
+round 0 best validation auc = 0.736180 on epoch 0
+Epoch 1
+round 0 best train auc = 0.782471 on epoch 1
+round 0 best validation auc = 0.746630 on epoch 1
+Epoch 2
+round 0 best train auc = 0.792940 on epoch 2
+round 0 best validation auc = 0.755192 on epoch 2
+Epoch 3
+round 0 best train auc = 0.809174 on epoch 3
+round 0 best validation auc = 0.767167 on epoch 3
+Epoch 4
+round 0 best train auc = 0.824950 on epoch 4
+round 0 best validation auc = 0.773416 on epoch 4
+Epoch 5
+round 0 best train auc = 0.830946 on epoch 5
+round 0 best validation auc = 0.780061 on epoch 5
+Epoch 6
+round 0 best train auc = 0.844591 on epoch 6
+round 0 best validation auc = 0.789943 on epoch 6
+Epoch 7
+round 0 best train auc = 0.856794 on epoch 7
+round 0 best validation auc = 0.794316 on epoch 7
+Epoch 8
+round 0 best train auc = 0.858421 on epoch 8
+round 0 best validation auc = 0.796525 on epoch 8
+Epoch 9
+round 0 best train auc = 0.876766 on epoch 9
+round 0 best validation auc = 0.806254 on epoch 9
+Epoch 10
+round 0 best train auc = 0.887846 on epoch 10
+round 0 best validation auc = 0.810909 on epoch 10
+Epoch 11
+round 0 best train auc = 0.887846 on epoch 10
+round 0 best validation auc = 0.810909 on epoch 10
+Epoch 12
+round 0 best train auc = 0.905903 on epoch 12
+round 0 best validation auc = 0.817787 on epoch 12
+Epoch 13
+round 0 best train auc = 0.914895 on epoch 13
+round 0 best validation auc = 0.823600 on epoch 13
+Epoch 14
+round 0 best train auc = 0.914895 on epoch 13
+round 0 best validation auc = 0.823600 on epoch 13
+Epoch 15
+round 0 best train auc = 0.931512 on epoch 15
+round 0 best validation auc = 0.830344 on epoch 15
+Epoch 16
+round 0 best train auc = 0.938143 on epoch 16
+round 0 best validation auc = 0.834169 on epoch 16
+Epoch 17
+round 0 best train auc = 0.942966 on epoch 17
+round 0 best validation auc = 0.837601 on epoch 17
+Epoch 18
+round 0 best train auc = 0.948438 on epoch 18
+round 0 best validation auc = 0.842653 on epoch 18
+Epoch 19
+round 0 best train auc = 0.948438 on epoch 18
+round 0 best validation auc = 0.842653 on epoch 18
+Epoch 20
+round 0 best train auc = 0.961585 on epoch 20
+round 0 best validation auc = 0.843097 on epoch 20
+Epoch 21
+round 0 best train auc = 0.961615 on epoch 21
+round 0 best validation auc = 0.849360 on epoch 21
+Epoch 22
+round 0 best train auc = 0.971333 on epoch 22
+round 0 best validation auc = 0.856533 on epoch 22
+Epoch 23
+round 0 best train auc = 0.971333 on epoch 22
+round 0 best validation auc = 0.856533 on epoch 22
+Epoch 24
+round 0 best train auc = 0.971333 on epoch 22
+round 0 best validation auc = 0.856533 on epoch 22
+Epoch 25
+round 0 best train auc = 0.981436 on epoch 25
+round 0 best validation auc = 0.861915 on epoch 25
+Epoch 26
+round 0 best train auc = 0.981436 on epoch 25
+round 0 best validation auc = 0.861915 on epoch 25
+Epoch 27
+round 0 best train auc = 0.981436 on epoch 25
+round 0 best validation auc = 0.861915 on epoch 25
+Epoch 28
+round 0 best train auc = 0.984668 on epoch 28
+round 0 best validation auc = 0.863481 on epoch 28
+Epoch 29
+round 0 best train auc = 0.984668 on epoch 28
+round 0 best validation auc = 0.863481 on epoch 28
+Epoch 30
+round 0 best train auc = 0.988218 on epoch 30
+round 0 best validation auc = 0.866376 on epoch 30
+Epoch 31
+round 0 best train auc = 0.988218 on epoch 30
+round 0 best validation auc = 0.866376 on epoch 30
+Epoch 32
+round 0 best train auc = 0.988218 on epoch 30
+round 0 best validation auc = 0.866376 on epoch 30
+Epoch 33
+round 0 best train auc = 0.988218 on epoch 30
+round 0 best validation auc = 0.866376 on epoch 30
+Epoch 34
+round 0 best train auc = 0.995508 on epoch 34
+round 0 best validation auc = 0.867424 on epoch 34
+Epoch 35
+round 0 best train auc = 0.995508 on epoch 34
+round 0 best validation auc = 0.867424 on epoch 34
+Epoch 36
+round 0 best train auc = 0.995508 on epoch 34
+round 0 best validation auc = 0.867424 on epoch 34
+Epoch 37
+round 0 best train auc = 0.995508 on epoch 34
+round 0 best validation auc = 0.867424 on epoch 34
+Epoch 38
+round 0 best train auc = 0.995508 on epoch 34
+round 0 best validation auc = 0.867424 on epoch 34
+Epoch 39
+round 0 best train auc = 0.997621 on epoch 39
+round 0 best validation auc = 0.871773 on epoch 39
+Epoch 40
+round 0 best train auc = 0.997621 on epoch 39
+round 0 best validation auc = 0.871773 on epoch 39
+Epoch 41
+round 0 best train auc = 0.997621 on epoch 39
+round 0 best validation auc = 0.871773 on epoch 39
+Epoch 42
+round 0 best train auc = 0.997621 on epoch 39
+round 0 best validation auc = 0.871773 on epoch 39
+Epoch 43
+round 0 best train auc = 0.998971 on epoch 43
+round 0 best validation auc = 0.871840 on epoch 43
+Epoch 44
+round 0 best train auc = 0.998971 on epoch 43
+round 0 best validation auc = 0.871840 on epoch 43
+Epoch 45
+round 0 best train auc = 0.998971 on epoch 43
+round 0 best validation auc = 0.871840 on epoch 43
+Epoch 46
+round 0 best train auc = 0.998971 on epoch 43
+round 0 best validation auc = 0.871840 on epoch 43
+Epoch 47
+round 0 best train auc = 0.998867 on epoch 47
+round 0 best validation auc = 0.872597 on epoch 47
+Epoch 48
+round 0 best train auc = 0.998867 on epoch 47
+round 0 best validation auc = 0.872597 on epoch 47
+Epoch 49
+round 0 best train auc = 0.998867 on epoch 47
+round 0 best validation auc = 0.872597 on epoch 47
+iteration 0
+Epoch 0
+round 0 best train auc = 0.756759 on epoch 0
+round 0 best validation auc = 0.765178 on epoch 0
+Epoch 1
+round 0 best train auc = 0.780464 on epoch 1
+round 0 best validation auc = 0.778083 on epoch 1
+Epoch 2
+round 0 best train auc = 0.780464 on epoch 1
+round 0 best validation auc = 0.778083 on epoch 1
+Epoch 3
+round 0 best train auc = 0.806206 on epoch 3
+round 0 best validation auc = 0.796033 on epoch 3
+Epoch 4
+round 0 best train auc = 0.817114 on epoch 4
+round 0 best validation auc = 0.800258 on epoch 4
+Epoch 5
+round 0 best train auc = 0.831009 on epoch 5
+round 0 best validation auc = 0.806608 on epoch 5
+Epoch 6
+round 0 best train auc = 0.841759 on epoch 6
+round 0 best validation auc = 0.816405 on epoch 6
+Epoch 7
+round 0 best train auc = 0.851720 on epoch 7
+round 0 best validation auc = 0.817798 on epoch 7
+Epoch 8
+round 0 best train auc = 0.859172 on epoch 8
+round 0 best validation auc = 0.818420 on epoch 8
+Epoch 9
+round 0 best train auc = 0.878522 on epoch 9
+round 0 best validation auc = 0.829002 on epoch 9
+Epoch 10
+round 0 best train auc = 0.882642 on epoch 10
+round 0 best validation auc = 0.831525 on epoch 10
+Epoch 11
+round 0 best train auc = 0.898579 on epoch 11
+round 0 best validation auc = 0.838902 on epoch 11
+Epoch 12
+round 0 best train auc = 0.899051 on epoch 12
+round 0 best validation auc = 0.841583 on epoch 12
+Epoch 13
+round 0 best train auc = 0.899051 on epoch 12
+round 0 best validation auc = 0.841583 on epoch 12
+Epoch 14
+round 0 best train auc = 0.899051 on epoch 12
+round 0 best validation auc = 0.841583 on epoch 12
+Epoch 15
+round 0 best train auc = 0.926027 on epoch 15
+round 0 best validation auc = 0.845994 on epoch 15
+Epoch 16
+round 0 best train auc = 0.929103 on epoch 16
+round 0 best validation auc = 0.847869 on epoch 16
+Epoch 17
+round 0 best train auc = 0.940677 on epoch 17
+round 0 best validation auc = 0.855488 on epoch 17
+Epoch 18
+round 0 best train auc = 0.940677 on epoch 17
+round 0 best validation auc = 0.855488 on epoch 17
+Epoch 19
+round 0 best train auc = 0.951095 on epoch 19
+round 0 best validation auc = 0.856349 on epoch 19
+Epoch 20
+round 0 best train auc = 0.956061 on epoch 20
+round 0 best validation auc = 0.860895 on epoch 20
+Epoch 21
+round 0 best train auc = 0.962768 on epoch 21
+round 0 best validation auc = 0.863194 on epoch 21
+Epoch 22
+round 0 best train auc = 0.964742 on epoch 22
+round 0 best validation auc = 0.868590 on epoch 22
+Epoch 23
+round 0 best train auc = 0.964742 on epoch 22
+round 0 best validation auc = 0.868590 on epoch 22
+Epoch 24
+round 0 best train auc = 0.973432 on epoch 24
+round 0 best validation auc = 0.870808 on epoch 24
+Epoch 25
+round 0 best train auc = 0.973432 on epoch 24
+round 0 best validation auc = 0.870808 on epoch 24
+Epoch 26
+round 0 best train auc = 0.973432 on epoch 24
+round 0 best validation auc = 0.870808 on epoch 24
+Epoch 27
+round 0 best train auc = 0.973432 on epoch 24
+round 0 best validation auc = 0.870808 on epoch 24
+Epoch 28
+round 0 best train auc = 0.983193 on epoch 28
+round 0 best validation auc = 0.871368 on epoch 28
+Epoch 29
+round 0 best train auc = 0.983193 on epoch 28
+round 0 best validation auc = 0.871368 on epoch 28
+Epoch 30
+round 0 best train auc = 0.986014 on epoch 30
+round 0 best validation auc = 0.874137 on epoch 30
+Epoch 31
+round 0 best train auc = 0.987594 on epoch 31
+round 0 best validation auc = 0.877112 on epoch 31
+Epoch 32
+round 0 best train auc = 0.987594 on epoch 31
+round 0 best validation auc = 0.877112 on epoch 31
+Epoch 33
+round 0 best train auc = 0.987594 on epoch 31
+round 0 best validation auc = 0.877112 on epoch 31
+Epoch 34
+round 0 best train auc = 0.990042 on epoch 34
+round 0 best validation auc = 0.877837 on epoch 34
+Epoch 35
+round 0 best train auc = 0.995161 on epoch 35
+round 0 best validation auc = 0.880489 on epoch 35
+Epoch 36
+round 0 best train auc = 0.995161 on epoch 35
+round 0 best validation auc = 0.880489 on epoch 35
+Epoch 37
+round 0 best train auc = 0.995161 on epoch 35
+round 0 best validation auc = 0.880489 on epoch 35
+Epoch 38
+round 0 best train auc = 0.995161 on epoch 35
+round 0 best validation auc = 0.880489 on epoch 35
+Epoch 39
+round 0 best train auc = 0.995161 on epoch 35
+round 0 best validation auc = 0.880489 on epoch 35
+Epoch 40
+round 0 best train auc = 0.995161 on epoch 35
+round 0 best validation auc = 0.880489 on epoch 35
+Epoch 41
+round 0 best train auc = 0.995161 on epoch 35
+round 0 best validation auc = 0.880489 on epoch 35
+Epoch 42
+round 0 best train auc = 0.995161 on epoch 35
+round 0 best validation auc = 0.880489 on epoch 35
+Epoch 43
+round 0 best train auc = 0.995161 on epoch 35
+round 0 best validation auc = 0.880489 on epoch 35
+Epoch 44
+round 0 best train auc = 0.995161 on epoch 35
+round 0 best validation auc = 0.880489 on epoch 35
+Epoch 45
+round 0 best train auc = 0.995161 on epoch 35
+round 0 best validation auc = 0.880489 on epoch 35
+Epoch 46
+round 0 best train auc = 0.995161 on epoch 35
+round 0 best validation auc = 0.880489 on epoch 35
+Epoch 47
+round 0 best train auc = 0.995161 on epoch 35
+round 0 best validation auc = 0.880489 on epoch 35
+Epoch 48
+round 0 best train auc = 0.995161 on epoch 35
+round 0 best validation auc = 0.880489 on epoch 35
+Epoch 49
+round 0 best train auc = 0.995161 on epoch 35
+round 0 best validation auc = 0.880489 on epoch 35
+iteration 0
+Epoch 0
+round 0 best train auc = 0.759441 on epoch 0
+round 0 best validation auc = 0.740080 on epoch 0
+Epoch 1
+round 0 best train auc = 0.779104 on epoch 1
+round 0 best validation auc = 0.757593 on epoch 1
+Epoch 2
+round 0 best train auc = 0.792882 on epoch 2
+round 0 best validation auc = 0.766476 on epoch 2
+Epoch 3
+round 0 best train auc = 0.810941 on epoch 3
+round 0 best validation auc = 0.783404 on epoch 3
+Epoch 4
+round 0 best train auc = 0.824248 on epoch 4
+round 0 best validation auc = 0.788692 on epoch 4
+Epoch 5
+round 0 best train auc = 0.834993 on epoch 5
+round 0 best validation auc = 0.796537 on epoch 5
+Epoch 6
+round 0 best train auc = 0.847517 on epoch 6
+round 0 best validation auc = 0.801574 on epoch 6
+Epoch 7
+round 0 best train auc = 0.861424 on epoch 7
+round 0 best validation auc = 0.809251 on epoch 7
+Epoch 8
+round 0 best train auc = 0.868194 on epoch 8
+round 0 best validation auc = 0.809587 on epoch 8
+Epoch 9
+round 0 best train auc = 0.877267 on epoch 9
+round 0 best validation auc = 0.814546 on epoch 9
+Epoch 10
+round 0 best train auc = 0.889755 on epoch 10
+round 0 best validation auc = 0.824431 on epoch 10
+Epoch 11
+round 0 best train auc = 0.900755 on epoch 11
+round 0 best validation auc = 0.826791 on epoch 11
+Epoch 12
+round 0 best train auc = 0.900755 on epoch 11
+round 0 best validation auc = 0.826791 on epoch 11
+Epoch 13
+round 0 best train auc = 0.917768 on epoch 13
+round 0 best validation auc = 0.833533 on epoch 13
+Epoch 14
+round 0 best train auc = 0.928395 on epoch 14
+round 0 best validation auc = 0.839513 on epoch 14
+Epoch 15
+round 0 best train auc = 0.928395 on epoch 14
+round 0 best validation auc = 0.839513 on epoch 14
+Epoch 16
+round 0 best train auc = 0.940864 on epoch 16
+round 0 best validation auc = 0.846259 on epoch 16
+Epoch 17
+round 0 best train auc = 0.940864 on epoch 16
+round 0 best validation auc = 0.846259 on epoch 16
+Epoch 18
+round 0 best train auc = 0.949316 on epoch 18
+round 0 best validation auc = 0.850007 on epoch 18
+Epoch 19
+round 0 best train auc = 0.955948 on epoch 19
+round 0 best validation auc = 0.855709 on epoch 19
+Epoch 20
+round 0 best train auc = 0.955948 on epoch 19
+round 0 best validation auc = 0.855709 on epoch 19
+Epoch 21
+round 0 best train auc = 0.969061 on epoch 21
+round 0 best validation auc = 0.860158 on epoch 21
+Epoch 22
+round 0 best train auc = 0.973396 on epoch 22
+round 0 best validation auc = 0.861028 on epoch 22
+Epoch 23
+round 0 best train auc = 0.968268 on epoch 23
+round 0 best validation auc = 0.862751 on epoch 23
+Epoch 24
+round 0 best train auc = 0.976060 on epoch 24
+round 0 best validation auc = 0.863744 on epoch 24
+Epoch 25
+round 0 best train auc = 0.980027 on epoch 25
+round 0 best validation auc = 0.865371 on epoch 25
+Epoch 26
+round 0 best train auc = 0.980027 on epoch 25
+round 0 best validation auc = 0.865371 on epoch 25
+Epoch 27
+round 0 best train auc = 0.984342 on epoch 27
+round 0 best validation auc = 0.866497 on epoch 27
+Epoch 28
+round 0 best train auc = 0.988520 on epoch 28
+round 0 best validation auc = 0.866685 on epoch 28
+Epoch 29
+round 0 best train auc = 0.988520 on epoch 28
+round 0 best validation auc = 0.866685 on epoch 28
+Epoch 30
+round 0 best train auc = 0.992262 on epoch 30
+round 0 best validation auc = 0.870004 on epoch 30
+Epoch 31
+round 0 best train auc = 0.992262 on epoch 30
+round 0 best validation auc = 0.870004 on epoch 30
+Epoch 32
+round 0 best train auc = 0.992262 on epoch 30
+round 0 best validation auc = 0.870004 on epoch 30
+Epoch 33
+round 0 best train auc = 0.992262 on epoch 30
+round 0 best validation auc = 0.870004 on epoch 30
+Epoch 34
+round 0 best train auc = 0.992262 on epoch 30
+round 0 best validation auc = 0.870004 on epoch 30
+Epoch 35
+round 0 best train auc = 0.994954 on epoch 35
+round 0 best validation auc = 0.871874 on epoch 35
+Epoch 36
+round 0 best train auc = 0.994954 on epoch 35
+round 0 best validation auc = 0.871874 on epoch 35
+Epoch 37
+round 0 best train auc = 0.994954 on epoch 35
+round 0 best validation auc = 0.871874 on epoch 35
+Epoch 38
+round 0 best train auc = 0.993326 on epoch 38
+round 0 best validation auc = 0.872212 on epoch 38
+Epoch 39
+round 0 best train auc = 0.993326 on epoch 38
+round 0 best validation auc = 0.872212 on epoch 38
+Epoch 40
+round 0 best train auc = 0.998368 on epoch 40
+round 0 best validation auc = 0.874157 on epoch 40
+Epoch 41
+round 0 best train auc = 0.998368 on epoch 40
+round 0 best validation auc = 0.874157 on epoch 40
+Epoch 42
+round 0 best train auc = 0.998368 on epoch 40
+round 0 best validation auc = 0.874157 on epoch 40
+Epoch 43
+round 0 best train auc = 0.998368 on epoch 40
+round 0 best validation auc = 0.874157 on epoch 40
+Epoch 44
+round 0 best train auc = 0.998890 on epoch 44
+round 0 best validation auc = 0.878602 on epoch 44
+Epoch 45
+round 0 best train auc = 0.998890 on epoch 44
+round 0 best validation auc = 0.878602 on epoch 44
+Epoch 46
+round 0 best train auc = 0.998890 on epoch 44
+round 0 best validation auc = 0.878602 on epoch 44
+Epoch 47
+round 0 best train auc = 0.998890 on epoch 44
+round 0 best validation auc = 0.878602 on epoch 44
+Epoch 48
+round 0 best train auc = 0.998890 on epoch 44
+round 0 best validation auc = 0.878602 on epoch 44
+Epoch 49
+round 0 best train auc = 0.998890 on epoch 44
+round 0 best validation auc = 0.878602 on epoch 44
+iteration 0
+Epoch 0
+round 0 best train auc = 0.757511 on epoch 0
+round 0 best validation auc = 0.751797 on epoch 0
+Epoch 1
+round 0 best train auc = 0.778498 on epoch 1
+round 0 best validation auc = 0.762693 on epoch 1
+Epoch 2
+round 0 best train auc = 0.793863 on epoch 2
+round 0 best validation auc = 0.765824 on epoch 2
+Epoch 3
+round 0 best train auc = 0.804355 on epoch 3
+round 0 best validation auc = 0.777321 on epoch 3
+Epoch 4
+round 0 best train auc = 0.818913 on epoch 4
+round 0 best validation auc = 0.783212 on epoch 4
+Epoch 5
+round 0 best train auc = 0.829737 on epoch 5
+round 0 best validation auc = 0.789555 on epoch 5
+Epoch 6
+round 0 best train auc = 0.844555 on epoch 6
+round 0 best validation auc = 0.793619 on epoch 6
+Epoch 7
+round 0 best train auc = 0.860755 on epoch 7
+round 0 best validation auc = 0.798764 on epoch 7
+Epoch 8
+round 0 best train auc = 0.868968 on epoch 8
+round 0 best validation auc = 0.807971 on epoch 8
+Epoch 9
+round 0 best train auc = 0.868968 on epoch 8
+round 0 best validation auc = 0.807971 on epoch 8
+Epoch 10
+round 0 best train auc = 0.868968 on epoch 8
+round 0 best validation auc = 0.807971 on epoch 8
+Epoch 11
+round 0 best train auc = 0.868968 on epoch 8
+round 0 best validation auc = 0.807971 on epoch 8
+Epoch 12
+round 0 best train auc = 0.904627 on epoch 12
+round 0 best validation auc = 0.820577 on epoch 12
+Epoch 13
+round 0 best train auc = 0.921595 on epoch 13
+round 0 best validation auc = 0.828009 on epoch 13
+Epoch 14
+round 0 best train auc = 0.921595 on epoch 13
+round 0 best validation auc = 0.828009 on epoch 13
+Epoch 15
+round 0 best train auc = 0.930869 on epoch 15
+round 0 best validation auc = 0.829376 on epoch 15
+Epoch 16
+round 0 best train auc = 0.930869 on epoch 15
+round 0 best validation auc = 0.829376 on epoch 15
+Epoch 17
+round 0 best train auc = 0.943964 on epoch 17
+round 0 best validation auc = 0.837294 on epoch 17
+Epoch 18
+round 0 best train auc = 0.942693 on epoch 18
+round 0 best validation auc = 0.839553 on epoch 18
+Epoch 19
+round 0 best train auc = 0.954064 on epoch 19
+round 0 best validation auc = 0.839584 on epoch 19
+Epoch 20
+round 0 best train auc = 0.960038 on epoch 20
+round 0 best validation auc = 0.839635 on epoch 20
+Epoch 21
+round 0 best train auc = 0.962514 on epoch 21
+round 0 best validation auc = 0.840791 on epoch 21
+Epoch 22
+round 0 best train auc = 0.962514 on epoch 21
+round 0 best validation auc = 0.840791 on epoch 21
+Epoch 23
+round 0 best train auc = 0.973605 on epoch 23
+round 0 best validation auc = 0.849320 on epoch 23
+Epoch 24
+round 0 best train auc = 0.976923 on epoch 24
+round 0 best validation auc = 0.850476 on epoch 24
+Epoch 25
+round 0 best train auc = 0.976923 on epoch 24
+round 0 best validation auc = 0.850476 on epoch 24
+Epoch 26
+round 0 best train auc = 0.980765 on epoch 26
+round 0 best validation auc = 0.850564 on epoch 26
+Epoch 27
+round 0 best train auc = 0.980765 on epoch 26
+round 0 best validation auc = 0.850564 on epoch 26
+Epoch 28
+round 0 best train auc = 0.985980 on epoch 28
+round 0 best validation auc = 0.851569 on epoch 28
+Epoch 29
+round 0 best train auc = 0.985980 on epoch 28
+round 0 best validation auc = 0.851569 on epoch 28
+Epoch 30
+round 0 best train auc = 0.988750 on epoch 30
+round 0 best validation auc = 0.859240 on epoch 30
+Epoch 31
+round 0 best train auc = 0.988750 on epoch 30
+round 0 best validation auc = 0.859240 on epoch 30
+Epoch 32
+round 0 best train auc = 0.988750 on epoch 30
+round 0 best validation auc = 0.859240 on epoch 30
+Epoch 33
+round 0 best train auc = 0.992930 on epoch 33
+round 0 best validation auc = 0.859991 on epoch 33
+Epoch 34
+round 0 best train auc = 0.992930 on epoch 33
+round 0 best validation auc = 0.859991 on epoch 33
+Epoch 35
+round 0 best train auc = 0.992954 on epoch 35
+round 0 best validation auc = 0.861246 on epoch 35
+Epoch 36
+round 0 best train auc = 0.996565 on epoch 36
+round 0 best validation auc = 0.865073 on epoch 36
+Epoch 37
+round 0 best train auc = 0.996565 on epoch 36
+round 0 best validation auc = 0.865073 on epoch 36
+Epoch 38
+round 0 best train auc = 0.996565 on epoch 36
+round 0 best validation auc = 0.865073 on epoch 36
+Epoch 39
+round 0 best train auc = 0.996565 on epoch 36
+round 0 best validation auc = 0.865073 on epoch 36
+Epoch 40
+round 0 best train auc = 0.996565 on epoch 36
+round 0 best validation auc = 0.865073 on epoch 36
+Epoch 41
+round 0 best train auc = 0.996565 on epoch 36
+round 0 best validation auc = 0.865073 on epoch 36
+Epoch 42
+round 0 best train auc = 0.996565 on epoch 36
+round 0 best validation auc = 0.865073 on epoch 36
+Epoch 43
+round 0 best train auc = 0.996565 on epoch 36
+round 0 best validation auc = 0.865073 on epoch 36
+Epoch 44
+round 0 best train auc = 0.998928 on epoch 44
+round 0 best validation auc = 0.865102 on epoch 44
+Epoch 45
+round 0 best train auc = 0.998928 on epoch 44
+round 0 best validation auc = 0.865102 on epoch 44
+Epoch 46
+round 0 best train auc = 0.998928 on epoch 44
+round 0 best validation auc = 0.865102 on epoch 44
+Epoch 47
+round 0 best train auc = 0.998928 on epoch 44
+round 0 best validation auc = 0.865102 on epoch 44
+Epoch 48
+round 0 best train auc = 0.998928 on epoch 44
+round 0 best validation auc = 0.865102 on epoch 44
+Epoch 49
+round 0 best train auc = 0.998928 on epoch 44
+round 0 best validation auc = 0.865102 on epoch 44
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --features_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/marketdrug/drugbank2022/appainv_2022_Mw1000_rmchongdiewithworld.csv --separate_test_features_path ../datasets/marketdrug/drugbank2022/appainv_2022_Mw1000_rmchongdiewithworld.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/drugbank2022/appainv_2022_KNIME_rmnu_dp2_leastc_04-13_firsttrain_s --mode active --depth 2 --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --features_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/marketdrug/drugbank2022/appainv_2022_Mw1000_rmchongdiewithworld.csv --separate_test_features_path ../datasets/marketdrug/drugbank2022/appainv_2022_Mw1000_rmchongdiewithworld_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/drugbank2022/appainv_2022_KNIME_rmnu_dp2_leastc_04-13_firsttrain_s --mode active --depth 2 --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --features_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/marketdrug/drugbank2022/appainv_2022_Mw1000_rmchongdiewithworld.csv --separate_test_features_path ../datasets/marketdrug/drugbank2022/appainv_2022_Mw1000_rmchongdiewithworld_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/drugbank2022/appainv_2022_KNIME_rmnu_dp2_leastc_04-13_firsttrain_s --mode active --depth 2 --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --features_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/marketdrug/drugbank2022/appainv_2022_Mw1000_rmchongdiewithworld_tani0d7.csv --separate_test_features_path ../datasets/marketdrug/drugbank2022/appainv_2022_Mw1000_rmchongdiewithworld_tani0d7_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/drugbank2022/appainv_2022_KNIME_rmnu_dp2_leastc_04-13_firsttrain_tani0d7_s --mode active --depth 2 --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --features_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/marketdrug/drugbank2022/appainv_2022_Mw1000_rmchongdiewithworld_tani0d7.csv --separate_test_features_path ../datasets/marketdrug/drugbank2022/appainv_2022_Mw1000_rmchongdiewithworld_tani0d7_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/drugbank2022/appainv_2022_KNIME_rmnu_dp2_leastc_04-13_firsttrain_tani0d7_s --mode active --depth 2 --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --features_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/clintox/clintox_KNIME_22-03-07_rmworld.csv --separate_test_features_path ../datasets/clintox/clintox_KNIME_22-03-07_rmworld_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test_active_worldaintrials_firstrain_clintox_KNIME_22-03-07_rmworld_s --mode active --depth 2 --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --features_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/hepatotoxicity/Hepatotoxicity_KNIME_rmworld.csv --separate_test_features_path ../datasets/hepatotoxicity/Hepatotoxicity_KNIME_rmworld_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test_active_worldaintrials_firstrain_hepatotoxicity_KNIME_rmworld_s --mode active --depth 2 --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --features_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/hepatotoxicity/Hepatotoxicity_KNIME_rmworld.csv --separate_test_features_path ../datasets/hepatotoxicity/Hepatotoxicity_KNIME_rmworld_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test_active_worldaintrials_firstrain_hepatotoxicity_KNIME_rmworld_s --mode active --depth 2 --target_columns Hepatotoxicity
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --features_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/hepatotoxicity/Hepatotoxicity_KNIME_rmworld.csv --separate_test_features_path ../datasets/hepatotoxicity/Hepatotoxicity_KNIME_rmworld_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/hepatotoxicity/test_active_worldaintrials_firstrain_hepatotoxicity_KNIME_rmworld_s --mode active --depth 2 --target_columns Hepatotoxicity --smiles_column smiles
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --features_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/hepatotoxicity/Hepatotoxicity_KNIME_rmworld.csv --separate_test_features_path ../datasets/hepatotoxicity/Hepatotoxicity_KNIME_rmworld_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/hepatotoxicity/test_active_worldaintrials_firstrain_hepatotoxicity_KNIME_rmworld_s --mode active --depth 2 --smiles_column smiles --target_columns Hepatotoxicity
+Command line
+python /home/cjcai/activechem/code/train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --features_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/hepatotoxicity/Hepatotoxicity_KNIME_rmworld.csv --separate_test_features_path ../datasets/hepatotoxicity/Hepatotoxicity_KNIME_rmworld_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/hepatotoxicity/test_active_worldaintrials_firstrain_hepatotoxicity_KNIME_rmworld_s --mode passive --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns Hepatotoxicity
+Command line
+python /home/cjcai/activechem/code/train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --features_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/hepatotoxicity/Hepatotoxicity_KNIME_rmworld.csv --separate_test_features_path ../datasets/hepatotoxicity/Hepatotoxicity_KNIME_rmworld_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/hepatotoxicity/test_active_worldaintrials_firstrain_hepatotoxicity_KNIME_rmworld_s --mode passive --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns Hepatotoxicity
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --features_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/hepatotoxicity/Hepatotoxicity_KNIME_rmworld.csv --separate_test_features_path ../datasets/hepatotoxicity/Hepatotoxicity_KNIME_rmworld_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/hepatotoxicity/test_active_worldaintrials_firstrain_hepatotoxicity_KNIME_rmworld_s --mode active --depth 2 --smiles_column smiles --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --features_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/marketdrug/Plk1-result-14_KNIME.csv --separate_test_features_path ../datasets/marketdrug/Plk1-result-14_KNIME_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/Plk1-result-14_model3_firsttrain_05-13_s --mode active --depth 2 --target_columns label
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --separate_test_path ../datasets/marketdrug/Plk1-result-14_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test3_s --mode active --depth 2 --target_columns label --outputfile test_model3.csv
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --separate_test_path ../datasets/marketdrug/Plk1-result-14_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test3_s --mode active --depth 2 --target_columns label --outputfile test_model3.csv
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --separate_test_path ./Helloworld/media/Plk1-result-14.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test3_s --mode active --depth 2 --target_columns label --outputfile test_model3.csv
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --separate_test_path ./Helloworld/media/Plk1-result-14_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test3_s --mode active --depth 2 --target_columns label --outputfile test_model3.csv
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --separate_test_path ./Helloworld/media/Plk1-result-14_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test3_s --mode active --depth 2 --target_columns label --outputfile test_model3.csv
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --separate_test_path ./Helloworld/media/Plk1-result-14_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test3_s --mode active --depth 2 --target_columns label --outputfile test_model3.csv
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --separate_test_path ./Helloworld/media/Plk1-result-14_KNIME_7HvFL6o.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test3_s --mode active --depth 2 --target_columns label --outputfile test_model3.csv
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --separate_test_path ./Helloworld/media/Plk1-result-14_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test3_s --mode active --depth 2 --target_columns label --outputfile test_model3.csv
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --separate_test_path ./Helloworld/media/Plk1-result-14_KNIME_oS2l4GP.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test3_s --mode active --depth 2 --target_columns label --outputfile test_model3.csv
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --separate_test_path ./Helloworld/media/Plk1-result-14_KNIME_GTqV0Jx.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test3_s --mode active --depth 2 --target_columns label --outputfile test_model3.csv
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --separate_test_path ./Helloworld/media/Plk1-result-14_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test3_s --mode active --depth 2 --target_columns label --outputfile test_model3.csv
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --separate_test_path ./Helloworld/media/Plk1-result-14_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test3_s --mode active --depth 2 --target_columns label --outputfile test_model3.csv
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --separate_test_path ./Helloworld/media/Plk1-result-14_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test3_s --mode active --depth 2 --target_columns label --outputfile test_model3.csv
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --separate_test_path ./Helloworld/media/Plk1-result-14_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test3_s --mode active --depth 2 --target_columns label --outputfile test_model3.csv
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --separate_test_path ./Helloworld/media/Plk1-result-14_KNIME_AjTcNrW.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test3_s --mode active --depth 2 --target_columns label --outputfile test_model3.csv
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --separate_test_path ./Helloworld/media/Plk1-result-14_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test3_s --mode active --depth 2 --target_columns label --outputfile test_model3.csv
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --separate_test_path ./Helloworld/media/Plk1-result-14_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test3_s --mode active --depth 2 --target_columns label --outputfile test_model3.csv
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --separate_test_path ./Helloworld/media/Plk1-result-14_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test3_s --mode active --depth 2 --target_columns label --outputfile test_model3.csv
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --separate_test_path ./Helloworld/media/Plk1-result-14_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test3_s --mode active --depth 2 --target_columns label --outputfile test_model3.csv
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/server/test3_s --mode active --depth 2 --target_columns label --outputfile test_model3.csv
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/server/test3_s --mode active --depth 2 --target_columns label --outputfile test_model3.csv
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --separate_test_path ../../druglikeness/tmp/ca3e7e99f519f39f9d4b970b061e4958f243b1c2dcd2c779826c98bee0e9f0e9/page17and54_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --mode active --depth 2 --target_columns label --outputfile test_model3.csv
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --separate_test_path ../../druglikeness/tmp/4b27747f28fbf7c33ec7b17dc337729ddddbefadd22839cfef5b2bcd87f9cce5/Plk1-result-14_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --mode active --depth 2 --target_columns label --outputfile test_model3.csv
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --separate_test_path ../../druglikeness/tmp/729e32f98b34874ea4863f5517ce6bb3bc57ffc798bf43f7398724be85fa1f26/page17and54_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --mode active --depth 2 --target_columns label --outputfile test_model3.csv
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --separate_test_path ../../druglikeness/tmp/8569c75f97ddb0c62daef2033d5dbe8f5ba1b5c5757c9f0620aa6f39ba80a864/hello.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --mode active --depth 2 --target_columns label --outputfile test_model3.csv
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --separate_test_path ../../druglikeness/tmp/38791ea2060a45852a899aa47714ded7d36d654ae04fdffeac548a3dea1f8db1/page17and54_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --mode active --depth 2 --target_columns label --outputfile test_model3.csv
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --separate_test_path ../../druglikeness/tmp/1a9ffc99465a1d38cdba4782febd60ff1c73a7e7365d76eac402a2d68631e6b7/page17and54_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --mode active --depth 2 --target_columns label --outputfile test_model3.csv
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --separate_test_path ../../druglikeness/tmp/8e6a6553f75f246e849e6296947054fa47f3f0e8ef205fe34672e19a2f93c57f/page17and54_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --mode active --depth 2 --target_columns label --outputfile test_model3.csv
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --separate_test_path ../../druglikeness/tmp/2f002f8343bb47a1a1fedff5ee414a09ac7f731ff31a87c3841fb3ca2e37731d/page17and54_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --mode active --depth 2 --target_columns label --outputfile test_model3.csv
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --separate_test_path ../../druglikeness/tmp/a47b85d9f11d28938db74baeb90fca6921381d780ca6a4a4dd4e31a494b236cf/test_example.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --mode active --depth 2 --target_columns label --outputfile test_model3.csv
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --separate_test_path ../../druglikeness/tmp/49598479d06125b596882475856971bc681adb5ef88783d0663034b53095952a/test_example.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --mode active --depth 2 --target_columns label --outputfile test_model3.csv
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --separate_test_path ../../druglikeness/tmp/70bd7b635a119317a33431b5a38b973743241779f4726eb64b4ffe4e9438a28a/test_example.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --mode active --depth 2 --target_columns label --outputfile test_model3.csv
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --separate_test_path ../../druglikeness/tmp/9c057464b28f6233beb7d0a61844db36799ba9b772d922b7b7cfee1d61d1e8e7/page17and54_KNIME.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --mode active --depth 2 --target_columns label --outputfile test_model3.csv
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --separate_test_path ../../druglikeness/tmp/df4519d8e0908d2113577deff08f9c81c2eacfd5a7ab79ab73eae1a6823386a0/test_example.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --mode active --depth 2 --target_columns label --outputfile test_model3.csv
+Command line
+python train_2_for_datasets.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/worldaintrials_KNIME_rmnu_dp2_leastc_04-13_firsttrain --epochs 50 --separate_test_path ../../druglikeness/tmp/993f33be8613eb54f7b1cfa7260689663c7547a60e84a1664aeac9b1b26308e3/test_example.csv --features_generator rdkit_2d_normalized --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --mode active --depth 2 --target_columns label --outputfile test_model3.csv
