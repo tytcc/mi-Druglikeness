@@ -45,20 +45,6 @@ def auc_prc(targets, preds):
     precision, recall, _ = precision_recall_curve(targets, preds)
     return auc(recall, precision)
 
- 
-def update_lr(lr,iteration,n=None,N=None,delta_n=None):
-
-    # return
-    return lr
-    # return 0.1*(1-n/(1.001*N))
-    # if iteration <12:
-    #     if iteration % 5 == 0:
-    #         lr=lr*0.1
-    # else:
-    #     if iteration % 5 == 0:
-    #         lr=lr*0.5
-    # return lr
-
 
 from copy import deepcopy
 def change_None(targets):
@@ -68,13 +54,6 @@ def change_None(targets):
             if targets[i][j] is None:
                 A[i][j]=0
     return A
-
-
-def update_GNN_lr(iteration,n=None,N=None,delta_n=None):
-    initial_lr=5e-4
-    lr=initial_lr * ((0.1)**(iteration//5))
-    return lr
-
 
 class active_GNN:
     def __init__(self,train_data,val_data,test_data,phase, path, stopping,cluster_label,fold,activemodel=True):
@@ -180,20 +159,12 @@ class active_GNN:
             train_data_GNN = MoleculeDataset(np.array(self.train_data)[label_ind])
             iteration = 0
 
-            # ini_train_loss, ini_val_loss, best_epoch = net.pretrain(train_data_GNN, self.val_data,
-            #                                                                      iteration, args,
-            #                                                                      logger)  # 这里的都是单次GNN 所需要的数据
 
-            # ini_train_loss,ini_val_loss, best_epoch=net.unsupervised_pretrain(train_data_GNN,self.val_data,iteration,args,logger) # 这里的都是单次GNN 所需要的数据
-            # args.init_lr = update_GNN_lr(iteration)
-            # args.max_lr = update_GNN_lr(iteration)
-            # args.final_lr = update_GNN_lr(iteration)
             # ini_train_loss, ini_val_loss, best_epoch,train_results_all,val_results_all = net.train(train_data_GNN, self.val_data, iteration, args,
-            #                                                         logger)  # 这里的都是单次GNN 所需要的数据
+            #                                                         logger)  # active learning with fine-tuning
 
             ini_train_loss, ini_val_loss, best_epoch,train_results_all,val_results_all = net.train_nopretrain(train_data_GNN, self.val_data, iteration, args,
-                                                                    logger)  # 这里的都是单次GNN 所需要的数据
-
+                                                                    logger)  #  active learning without fine-tuning
             train_loss_all.append(ini_train_loss)
             val_loss_all.append(ini_val_loss)
             best_epoch_all.append(best_epoch)

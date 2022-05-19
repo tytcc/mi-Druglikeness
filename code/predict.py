@@ -11,6 +11,7 @@ import torch
 # np.random.seed(33)
 torch.manual_seed(3)
 torch.cuda.manual_seed(3)
+import joblib
 
 
 from chemprop.data import MoleculeDataset
@@ -170,11 +171,11 @@ def split_train_GNN_predict(args,logger,path_save,n):
 
 
                     
-            # for mm in range(len_metric):
-            #     metric = metric_list[mm]
-            #     if metric=='accuracy':
-            #         metric='acc'
-                # joblib.dump(results[mm],path_save_new+str(round)+'/'+metric)
+            for mm in range(len_metric):
+                metric = metric_list[mm]
+                if metric=='accuracy':
+                    metric='acc'
+                joblib.dump(results[mm],path_save_new+str(round)+'/'+metric)
                 # joblib.dump(train_results, path_save_new + str(round) + '/' +'train_'+ metric)
                 # joblib.dump(val_results[mm], path_save_new + str(round) + '/' + 'val_rm_'+metric)
                 # joblib.dump(val_results[mm], path_save_new + str(round) + '/' + 'val_'+metric)
@@ -188,7 +189,6 @@ def split_train_GNN_predict(args,logger,path_save,n):
     for model_idx in range(1):
         #
         results_all=np.array(results_all_list)[:,:,model_idx].transpose()
-
         data = pd.DataFrame(results_all.mean(axis=1),columns=['average'])
         data['smiles']=test_data.smiles()
         

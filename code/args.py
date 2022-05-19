@@ -173,12 +173,8 @@ class TrainArgs(CommonArgs):
     outputfile:str=None # inference file name 
 
     # wang previous args
-    d: str =None # data path
-    l: str = None # label path
+
     s: str = None # output path
-    f: int = None # f fold
-    r: float=None # test ratio
-    R: bool = False # regression
     m: str=None # load model path
     mode: str = None # active or passive
     weight_decay: float=0
