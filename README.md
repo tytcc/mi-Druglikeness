@@ -34,4 +34,12 @@ python predict.py --separate_test_path <test_data> --save_dir <model_path> --out
 
 where <test_data> is the path to a CSV file containing test data, <model_path> is the directory where trained model is saved, and <outputfile> is the path for prediction results.
 
-we also built a web server for basic predicting. The website is available here:[Druglikeness-Predictor](http) 
+### Al ensemble
+
+```shell
+python al_ensemble.py --data_path <train_data> --separate_test_path <test_data> --save_dir <model_path> --s <output> 
+```
+
+where <train_data> is the path to a CSV file containing training data, <test_data> is the path to a CSV file containing test_data, <model_path> is the directory where trained model will be ensembled, <output> is the directory where results will be saved.
+~~we also built a web server for basic predicting. The website is available here:[Druglikeness-Predictor](http)~~
+
