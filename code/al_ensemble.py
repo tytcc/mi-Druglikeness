@@ -4,9 +4,6 @@ import numpy as np
 import pandas as pd
 import torch
 
-import split_data as split
-import preprocessing
-import NN
 import active
 import time
 from alipy.query_strategy import (QueryInstanceQBC, QueryInstanceGraphDensity,
@@ -47,119 +44,13 @@ from math import sqrt
 
 from chemprop.data import MoleculeDataset
 
-from active_2 import active_GNN,active_GNN_multi
-from model_GNN_2 import train_GNN
+from active import active_GNN
+from model_GNN import train_GNN
 
 import warnings
 warnings.filterwarnings('ignore')
 
-from time import clock
 import pandas as pd
-
-from MOE_my import MoE_model
-
-def get_log(proba,label,prediction, delta = 0.05):
-    """ Compute ECE, Average confidence and accuracy for the given
-    network on the given dataset """
-
-
-    bins = [0] * (int(1 // delta) + 1)
-    acc_hist = [0] * (int(1 // delta) + 1)
-    conf_hist = [0] * (int(1 // delta) + 1)
-
-    correct = 0
-    confidence = 0
-    for idx in range(0, len(proba)):
-        if proba[idx] < 0.5:
-            proba_=1-proba[idx]
-        else:
-            proba_=proba[idx]
-        bins[int(proba_ // delta)] += 1
-        acc_hist[int(proba_ // delta)] +=1 if prediction[idx] == label[idx] else 0
-        conf_hist[int(proba_ // delta)] += proba_
-    
-
-    confidence += proba.sum()
-    correct +=np.equal(prediction,label).sum() #prediction.eq(label).sum()
-    accuracy = 100 * correct/ len(label)
-    confidence = 100 * confidence / len(label)
-    # print(accuracy)
-
-    s = sum(bins)
-    ece = 0
-    print(acc_hist)
-    print(conf_hist)
-
-    # Normalizations
-    for id in range(0, len(bins)):
-        acc_hist[id] /= (bins[id] + (bins[id] == 0))
-        conf_hist[id] /= (bins[id] + (bins[id] == 0))
-        bins[id] /= s
-        ece += bins[id] * abs(acc_hist[id] - conf_hist[id])
-    return ece, acc_hist,conf_hist
-
-
-def _label(path):
-    suffix = path.split('.')[-1]
-    if suffix == 'txt':
-        fd = open(path, 'r+')
-        lab = fd.read().split('')
-        fd.close()
-        lab = np.array([float(i) for i in lab])
-    else: lab = np.array(joblib.load(path))
-    return lab
-
-
-def _dataset(path):
-    suffix = path.split('.')[-1]
-    set = None
-    if suffix == 'txt' or suffix == 'smi':
-        fd = open(path, 'r+')
-        set = fd.read().split('')
-        fd.close()
-        set = preprocessing.smile_list_to_mols(set)
-    elif suffix == 'sdf':
-        set = preprocessing.read_sdf(path)
-
-    if set:
-        set = preprocessing.descriptors.generate_rdDescriptorsSets(set)
-    else:
-        if suffix == 'csv':
-            set = np.array(pd.read_csv(path))
-        else: set = np.array(joblib.load(path))
-
-    if suffix == 'npy':
-        set = np.load(path)
-
-    return set
-
-
-def kfold(ds, lab, k=5, regression=False, model=None):
-    # torch5Fold
-    from sklearn.model_selection import KFold
-    kf = KFold(n_splits=k, shuffle=True)
-
-    fold = 0
-    for tr_idx, te_idx in kf.split(lab):
-        try:
-            os.mkdir('active%d' % fold)
-        except FileExistsError:
-            pass
-        path = 'active%d' % fold
-        fold += 1
-
-        xtr, ytr, xte, yte = ds[tr_idx], lab[tr_idx], ds[te_idx], lab[te_idx]
-        if model: pass
-        else:
-            if regression: model = NN.FcRegRDKit()
-            else: model = NN.FcRDKit()
-        print('start training')
-        if regression: nn = active.TorchRegressionFold(xtr, ytr, xte, yte, model, 'active', path, ['percent_of_unlabel', 1],
-                                      measure='distance', distance='linear')
-
-        else: nn = active.TorchFold(xtr, ytr, xte, yte, model, 'active', path, ['percent_of_unlabel', 1])
-        nn.train()
-    print('finish training')
 
 
 def rm_dup_smi(wdi, zinc):
@@ -191,7 +82,7 @@ def split_train_GNN_predict(args,logger,path_save):
     seed=34
     # results_all_list=[[],[],[],[],[],[],[],[],[],[]]
     results_all_list=[[],[],[],[],[]]
-    for i in range(5):
+    for i in range(1):
         args.fold=i
         # i=args.fold
         path_save_new=path_save+'/fold_'+str(i)+'/'
@@ -207,9 +98,9 @@ def split_train_GNN_predict(args,logger,path_save):
             # debug('Loading data')
             args.task_names = args.target_columns or get_task_names(args.data_path)
             data = get_data(path=args.data_path, features_path=args.features_path,args=args)
-            args.num_tasks = data.num_tasks()
+            # args.num_tasks = data.num_tasks()
             args.features_size = data.features_size()
-            debug(f'Number of tasks = {args.num_tasks}')
+            # debug(f'Number of tasks = {args.num_tasks}')
 
             # Split data
             # debug(f'Splitting data with seed {args.seed}')
@@ -218,7 +109,7 @@ def split_train_GNN_predict(args,logger,path_save):
                 #                      features_path=args.separate_test_features_path,target_columns=['label_world','label_intrials','label_invivo'])
                 test_data = get_data(path=args.separate_test_path, args=args,
                                      features_path=args.separate_test_features_path) #target_columns=['label'] smiles_column='smiles'
-                args.num_tasks = test_data.num_tasks()
+                # args.num_tasks = test_data.num_tasks()
                 args.features_size = test_data.features_size()
             if args.separate_val_path:
                 val_data = get_data(path=args.separate_val_path, args=args, features_path=args.separate_val_features_path)
@@ -304,7 +195,7 @@ def split_train_GNN_predict(args,logger,path_save):
 
 
 
-from args import TrainArgs
+from args_new import TrainArgs
 from chemprop.data.utils import get_class_sizes, get_data, get_task_names, split_data
 from chemprop.utils import create_logger
 vari = {}
@@ -316,34 +207,10 @@ s_t=time.time()
 args = TrainArgs().parse_args()
 logger = create_logger(name='train', save_dir=args.save_dir, quiet=args.quiet)
 
-if args.d:
-    path_trainset = args.d
-    trainset = _dataset(path_trainset)
 
-if args.l:
-    path_trainlab = args.l
-    trainlab = _label(path_trainlab)
 
 if args.s:
     path_save = args.s
-
-if args.f:
-    k = args.f
-    fold = True
-elif args.r:
-    test_ratio = args.r
-
-if args.R:
-    regression = True
-
-if args.m:
-    path_model = args[args.index('-m')+1]
-    model = torch.load(path_model)
-    trained = True
-
-if args.outputfile:
-    args.outputfile = './Helloworld/test_example/results/'+args.outputfile
-
 
 # start training from here
 if logger is not None:
@@ -358,6 +225,7 @@ try:
     os.mkdir(file_path)
 except FileExistsError:
     pass
+
 # os.chdir(file_path)
 results=split_train_GNN_predict(args,logger,path_save)
 

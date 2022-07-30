@@ -15,7 +15,8 @@ from tqdm import tqdm
 from chemprop.args import TrainArgs
 from chemprop.data import MoleculeDataLoader, MoleculeDataset
 from chemprop.nn_utils import compute_gnorm, compute_pnorm, NoamLR
-from chemprop.utils import get_metric_func
+# from chemprop.utils import get_metric_func
+from chemprop.train.metrics import get_metric_func
 
 def train(model: nn.Module,
           data_loader: MoleculeDataLoader,
@@ -175,7 +176,10 @@ def temperature_train(model: nn.Module,
         for batch in tqdm(data_loader, total=len(data_loader)):
             # Prepare batch
             batch: MoleculeDataset
-            mol_batch, features_batch, target_batch = batch.batch_graph(), batch.features(), batch.targets()  ##在MoleculeDataset的分类中把graph算好了
+            # mol_batch, features_batch, target_batch = batch.batch_graph(), batch.features(), batch.targets()  ##在MoleculeDataset的分类中把graph算好了
+            mol_batch, features_batch, target_batch, atom_descriptors_batch, atom_features_batch, bond_features_batch, data_weights_batch = \
+            batch.batch_graph(), batch.features(), batch.targets(), batch.atom_descriptors(), \
+            batch.atom_features(), batch.bond_features(), batch.data_weights()
             mask = torch.Tensor([[x is not None for x in tb] for tb in target_batch]) # add a mask for None target
             targets = torch.Tensor([[0 if x is None else x for x in tb] for tb in target_batch]) # process the targets chanege the "None" to 0
 

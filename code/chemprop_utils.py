@@ -18,6 +18,175 @@ from chemprop.data.scaffold import log_scaffold_stats, scaffold_split
 from args import PredictArgs, TrainArgs
 from chemprop.features import load_features
 
+from typing import Callable, List, Tuple, Union
+from sklearn.metrics import auc, mean_absolute_error, mean_squared_error, precision_recall_curve, r2_score,\
+    roc_auc_score, accuracy_score, log_loss,matthews_corrcoef,confusion_matrix,f1_score
+
+from math import sqrt
+import math
+
+def prc_auc(targets: List[int], preds: List[float]) -> float:
+    """
+    Computes the area under the precision-recall curve.
+
+    :param targets: A list of binary targets.
+    :param preds: A list of prediction probabilities.
+    :return: The computed prc-auc.
+    """
+    precision, recall, _ = precision_recall_curve(targets, preds)
+    return auc(recall, precision)
+
+
+def rmse(targets: List[float], preds: List[float]) -> float:
+    """
+    Computes the root mean squared error.
+
+    :param targets: A list of targets.
+    :param preds: A list of predictions.
+    :return: The computed rmse.
+    """
+    return math.sqrt(mean_squared_error(targets, preds))
+
+
+def mse(targets: List[float], preds: List[float]) -> float:
+    """
+    Computes the mean squared error.
+
+    :param targets: A list of targets.
+    :param preds: A list of predictions.
+    :return: The computed mse.
+    """
+    return mean_squared_error(targets, preds)
+
+
+def accuracy(targets: List[int], preds: List[float], threshold: float = 0.5) -> float:
+    """
+    Computes the accuracy of a binary prediction task using a given threshold for generating hard predictions.
+    Alternatively, compute accuracy for a multiclass prediction task by picking the largest probability. 
+
+    :param targets: A list of binary targets.
+    :param preds: A list of prediction probabilities.
+    :param threshold: The threshold above which a prediction is a 1 and below which (inclusive) a prediction is a 0
+    :return: The computed accuracy.
+    """
+    if type(preds[0]) == list: # multiclass
+        hard_preds = [p.index(max(p)) for p in preds]
+    else:
+        hard_preds = [1 if p > threshold else 0 for p in preds] # binary prediction
+    return accuracy_score(targets, hard_preds)
+
+def mcc(targets: List[int], preds: List[float], threshold: float = 0.5) -> float:
+    """
+    Computes the accuracy of a binary prediction task using a given threshold for generating hard predictions.
+    Alternatively, compute accuracy for a multiclass prediction task by picking the largest probability.
+
+    :param targets: A list of binary targets.
+    :param preds: A list of prediction probabilities.
+    :param threshold: The threshold above which a prediction is a 1 and below which (inclusive) a prediction is a 0
+    :return: The computed accuracy.
+    """
+    if type(preds[0]) == list: # multiclass
+        hard_preds = [p.index(max(p)) for p in preds]
+    else:
+        hard_preds = [1 if p > threshold else 0 for p in preds] # binary prediction
+    return matthews_corrcoef(targets, hard_preds)
+
+def conf_mat(targets: List[int], preds: List[float], threshold: float = 0.5):
+    if type(preds[0]) == list: # multiclass
+        hard_preds = [p.index(max(p)) for p in preds]
+    else:
+        hard_preds = [1 if p > threshold else 0 for p in preds] # binary prediction
+    return confusion_matrix(targets, hard_preds)
+
+def precision(targets,preds):
+    mat=conf_mat(targets,preds)
+    try:
+        tn, tp, fp, fn = mat[0, 0], mat[1, 1], mat[0, 1], mat[1, 0]
+    except IndexError:
+        tn, tp, fp, fn = mat[0, 0], 0, 0, 0
+    return tp/(tp+fp)
+
+def specificity(targets,preds):
+    mat=conf_mat(targets,preds)
+    try:
+        tn, tp, fp, fn = mat[0, 0], mat[1, 1], mat[0, 1], mat[1, 0]
+    except IndexError:
+        tn, tp, fp, fn = mat[0, 0], 0, 0, 0
+    return tn / (tn + fp)
+
+def recall(targets,preds):
+    mat=conf_mat(targets,preds)
+    try:
+        tn, tp, fp, fn = mat[0, 0], mat[1, 1], mat[0, 1], mat[1, 0]
+    except IndexError:
+        tn, tp, fp, fn = mat[0, 0], 0, 0, 0
+    return tp/(tp+fn)
+def gmeans(targets,preds):
+    mat=conf_mat(targets,preds)
+    try:
+        tn, tp, fp, fn = mat[0, 0], mat[1, 1], mat[0, 1], mat[1, 0]
+        recall = tp / (tp + fn)
+        specificity = tn / (tn + fp)
+        return sqrt(recall * specificity)
+    except IndexError:
+        tn, tp, fp, fn = mat[0,0],0,0,0
+        return float('nan')
+
+    return sqrt(recall*specificity)
+def f1(targets: List[int], preds: List[float], threshold: float = 0.5) -> float:
+    if type(preds[0]) == list: # multiclass
+        hard_preds = [p.index(max(p)) for p in preds]
+    else:
+        hard_preds = [1 if p > threshold else 0 for p in preds] # binary prediction
+    return f1_score(targets,hard_preds)
+
+
+def get_metric_func(metric: str) -> Callable[[Union[List[int], List[float]], List[float]], float]:
+    """
+    Gets the metric function corresponding to a given metric name.
+
+    :param metric: Metric name.
+    :return: A metric function which takes as arguments a list of targets and a list of predictions and returns.
+    """
+    if metric == 'auc':
+        return roc_auc_score
+
+    if metric == 'prc-auc':
+        return prc_auc
+
+    if metric == 'rmse':
+        return rmse
+    
+    if metric =='mse':
+        return mse
+
+    if metric == 'mae':
+        return mean_absolute_error
+
+    if metric == 'r2':
+        return r2_score
+    
+    if metric == 'accuracy':
+        return accuracy
+    
+    if metric == 'cross_entropy':
+        return log_loss
+
+    if metric == 'mcc':
+        return mcc
+
+    if metric == 'recall':
+        return recall
+    if metric == 'precision':
+        return precision
+    if metric == 'f1':
+        return f1
+    if metric == 'gmeans':
+        return gmeans
+    if metric=='specificity':
+        return specificity
+
+    raise ValueError(f'Metric "{metric}" not supported.')
 
 def get_data(path: str,
              smiles_columns: Union[str, List[str]] = None,
