@@ -18,7 +18,7 @@ from active import active_GNN
 import warnings
 warnings.filterwarnings('ignore')
 
-from time import clock
+# from time import clock
 
 
 def split_train_GNN_onefold(args,logger,path_save):
@@ -37,7 +37,7 @@ def split_train_GNN_onefold(args,logger,path_save):
             # debug('Loading data')
             args.task_names = args.target_columns or get_task_names(args.data_path)
             data = get_data(path=args.data_path, features_path=args.features_path,args=args)
-            args.num_tasks = data.num_tasks()
+            # args.num_tasks = data.num_tasks()
             args.features_size = data.features_size()
             # debug(f'Number of tasks = {args.num_tasks}')
 
@@ -69,7 +69,7 @@ def split_train_GNN_onefold(args,logger,path_save):
                 nn.train(args,logger)
             # return train_data,val_data,test_data
 
-from args import TrainArgs
+from args_new import TrainArgs
 from chemprop.data.utils import get_class_sizes, get_task_names, split_data,get_data
 # from chemprop_utils import get_data
 from chemprop.utils import create_logger

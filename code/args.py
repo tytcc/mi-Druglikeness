@@ -65,9 +65,34 @@ class CommonArgs(Tap):
     batch_size: int = 50  # Batch size
     sou_batch_size: int=50
 
+    ### new version chemprop
+    phase_features_path: str = None
+    atom_descriptors: Literal['feature', 'descriptor'] = None
+    """
+    Custom extra atom descriptors.
+    :code:`feature`: used as atom features to featurize a given molecule.
+    :code:`descriptor`: used as descriptor and concatenated to the machine learned atomic representation.
+    """
+    atom_descriptors_path: str = None
+    """Path to the extra atom descriptors."""
+    bond_features_path: str = None
+    """Path to the extra bond descriptors that will be used as bond features to featurize a given molecule."""
+    no_cache_mol: bool = False
+    """
+    Whether to not cache the RDKit molecule for each SMILES string to reduce memory usage (cached by default).
+    """
+    empty_cache: bool = False
+    """
+    Whether to empty all caches before training or predicting. This is necessary if multiple jobs are run within a single script and the atom or bond features change.
+    """
+
     def __init__(self, *args, **kwargs) -> None:
         super(CommonArgs, self).__init__(*args, **kwargs)
         self._checkpoint_paths = None
+        ##  new version chemprop
+        self._atom_features_size = 0
+        self._bond_features_size = 0
+        self._atom_descriptors_size = 0
 
     @property
     def device(self) -> torch.device:
@@ -150,6 +175,10 @@ class TrainArgs(CommonArgs):
     show_individual_scores: bool = False  # Show all scores for individual targets, not just average, at the end
     cache_cutoff: int = 10000  # Maximum number of molecules in dataset to allow caching. Below this number, caching is used and data loading is sequential. Above this number, caching is not used and data loading is parallel.
     fold: int=None
+
+    ## newversion chemprop
+    loss_function: Literal['mse', 'bounded_mse', 'binary_cross_entropy', 'cross_entropy', 'mcc', 'sid', 'wasserstein', 'mve', 'evidential', 'dirichlet'] = 'binary_cross_entropy'
+    """Choice of loss function. Loss functions are limited to compatible dataset types."""
 
     # Model arguments
     bias: bool = False  # Whether to add bias to linear layers

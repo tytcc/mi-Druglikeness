@@ -313,9 +313,12 @@ class TrainArgs(CommonArgs):
     # wang previous args
 
     s: str = None # output path
-    m: str=None # load model path
     mode: str = None # active , passive ,normal
     weight_decay: float=0
+
+    # al ensemble args
+    start_iter=None
+    end_iter=None
 
     # Model arguments
     bias: bool = False

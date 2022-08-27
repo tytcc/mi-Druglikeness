@@ -16,13 +16,13 @@ import joblib
 
 from chemprop.data import MoleculeDataset
 
-from model_GNN_2 import train_GNN
+from model_GNN import train_GNN
 from rdkit import Chem
 
 import warnings
 warnings.filterwarnings('ignore')
 
-from time import clock
+# from time import clock
 import pandas as pd
 
 def rm_dup_smi(wdi, zinc):
@@ -54,8 +54,9 @@ def rm_du(data):
 def split_train_GNN_predict(args,logger,path_save,n):
     seed=34
     # results_all_list=[[],[],[],[],[],[],[],[],[],[]]
-    results_all_list=[[],[],[],[],[]]
-    for i in range(5):
+    # results_all_list=[[],[],[],[],[]]
+    results_all_list = [[]]
+    for i in range(1):
         args.fold=i
         # i=args.fold
         path_save_new=path_save+'/fold_'+str(i)+'/'
@@ -81,8 +82,8 @@ def split_train_GNN_predict(args,logger,path_save,n):
                 # test_data = get_data(path=args.separate_test_path, args=args,
                 #                      features_path=args.separate_test_features_path,target_columns=['label_world','label_intrials','label_invivo'])
                 test_data = get_data(path=args.separate_test_path, args=args,
-                                     features_path=args.separate_test_features_path,target_columns=['label'],smiles_column='smiles')
-                args.num_tasks = test_data.num_tasks()
+                                     features_path=args.separate_test_features_path,target_columns=['label'],smiles_columns='smiles')
+                # args.num_tasks = test_data.num_tasks()
                 args.features_size = test_data.features_size()
             if args.separate_val_path:
                 val_data = get_data(path=args.separate_val_path, args=args, features_path=args.separate_val_features_path)
@@ -153,8 +154,9 @@ def split_train_GNN_predict(args,logger,path_save,n):
 # print(args)
 # args.pop(0)
 
-from args import TrainArgs
+from args_new import TrainArgs
 from chemprop.data.utils import get_class_sizes, get_data, get_task_names, split_data
+
 from chemprop.utils import create_logger
 vari = {}
 fold = False
@@ -166,7 +168,7 @@ logger = create_logger(name='train', save_dir=args.save_dir, quiet=args.quiet)
 
 
 path_save = args.s
-
+args.similes_column = args.smiles_columns
 
 
 # start training from here

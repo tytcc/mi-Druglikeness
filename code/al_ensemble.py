@@ -6,10 +6,6 @@ import torch
 
 import active
 import time
-from alipy.query_strategy import (QueryInstanceQBC, QueryInstanceGraphDensity,
-                                  QueryInstanceUncertainty, QueryRandom,
-                                  QueryCostSensitiveHALC, QueryCostSensitivePerformance,
-                                  QueryCostSensitiveRandom)
 from alipy import index
 from alipy.experiment import StoppingCriteria
 
@@ -80,7 +76,6 @@ def split_train_GNN_predict(args,logger,path_save):
     results_all_list=[[],[],[],[],[]]
     for i in range(5):
         args.fold=i
-        # i=args.fold
         path_save_new=path_save+'/fold_'+str(i)+'/'
         print(path_save_new)
         try:
@@ -142,7 +137,7 @@ def split_train_GNN_predict(args,logger,path_save):
                 # temperature=[1]
                 # temperature 计算
                 temperature=1
-                for iteration in range(13,16):
+                for iteration in range(11,16):
                     # test_preds_tem,test_preds,tem=net.predict_GNN_last_tem(test_data,val_data,iteration,temperature,args,logger) #temperature[iteration]
                     # print(len(test_data))
                     # print(np.array(test_preds).shape)
@@ -159,8 +154,6 @@ def split_train_GNN_predict(args,logger,path_save):
                 ## evaluate
                 me = net.evaluate_GNN(test_preds, test_data, args, logger, metric_list)
                 val_me = net.evaluate_GNN(val_preds, val_data, args, logger, metric_list)
-
-
 
                 try:
                     os.mkdir(path_save_new+str(round))
