@@ -26,10 +26,6 @@ import torch
 torch.manual_seed(3)
 torch.cuda.manual_seed(3)
 
-# #160.5
-# np.random.seed(33)
-# torch.manual_seed(3)
-# # torch.cuda.manual_seed(3)
 
 from rdkit.Chem import AllChem
 from rdkit import Chem
@@ -82,7 +78,7 @@ def split_train_GNN_predict(args,logger,path_save):
     seed=34
     # results_all_list=[[],[],[],[],[],[],[],[],[],[]]
     results_all_list=[[],[],[],[],[]]
-    for i in range(1):
+    for i in range(5):
         args.fold=i
         # i=args.fold
         path_save_new=path_save+'/fold_'+str(i)+'/'
@@ -146,7 +142,7 @@ def split_train_GNN_predict(args,logger,path_save):
                 # temperature=[1]
                 # temperature 计算
                 temperature=1
-                for iteration in range(21,24):#13to16 #15to24 #14to24
+                for iteration in range(13,16):
                     # test_preds_tem,test_preds,tem=net.predict_GNN_last_tem(test_data,val_data,iteration,temperature,args,logger) #temperature[iteration]
                     # print(len(test_data))
                     # print(np.array(test_preds).shape)

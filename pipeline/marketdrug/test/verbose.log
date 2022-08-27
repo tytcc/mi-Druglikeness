@@ -1,0 +1,1341 @@
+Command line
+python train.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/test --epochs 50 --features_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test_s --mode normal --depth 2 --target_columns label
+Command line
+python train.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/test --epochs 50 --features_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test_s --mode normal --depth 2 --target_columns label
+Command line
+python train.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/test --epochs 50 --features_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test_s --mode normal --depth 2 --target_columns label
+Command line
+python train.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/test --epochs 50 --features_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test_s --mode normal --depth 2 --target_columns label
+Command line
+python train.py --data_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/test --epochs 50 --features_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test_s --mode normal --depth 2 --target_columns label
+Command line
+python train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/test --epochs 50 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/marketdrug/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test_s --mode normal --depth 2 --target_columns label
+Command line
+python train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/test --epochs 50 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test_s --mode normal --depth 2 --target_columns label
+Command line
+python train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/test --epochs 50 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test_s --mode normal --depth 2 --target_columns label
+iteration 0
+Class sizes
+label 0: 38.92%, 1: 61.08%
+Command line
+python train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/test --epochs 50 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test_s --mode normal --depth 2 --target_columns label
+iteration 0
+Class sizes
+label 0: 38.92%, 1: 61.08%
+Command line
+python train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/test --epochs 50 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test_s --mode normal --depth 2 --target_columns label
+iteration 0
+Class sizes
+label 0: 38.92%, 1: 61.08%
+Building model 0
+Command line
+python train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/test --epochs 50 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test_s --mode normal --depth 2 --target_columns label
+Command line
+python train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/test --epochs 50 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test_s --mode normal --depth 2 --target_columns label
+Command line
+python train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/test --epochs 50 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test_s --mode normal --depth 2 --target_columns label
+iteration 0
+Class sizes
+label 0: 38.92%, 1: 61.08%
+Building model 0
+Command line
+python train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/test --epochs 50 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test_s --mode normal --depth 2 --target_columns label
+iteration 0
+Class sizes
+label 0: 38.92%, 1: 61.08%
+Building model 0
+DMPNN(
+  (sigmoid): Sigmoid()
+  (encoder): MPNEncoder(
+    (dropout_layer): Dropout(p=0.0, inplace=False)
+    (act_func): ReLU()
+    (W_i): Linear(in_features=147, out_features=300, bias=False)
+    (W_h): Linear(in_features=300, out_features=300, bias=False)
+    (W_o): Linear(in_features=433, out_features=300, bias=True)
+  )
+  (ffn): Sequential(
+    (0): Dropout(p=0.0, inplace=False)
+    (1): Linear(in_features=500, out_features=300, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.0, inplace=False)
+    (4): Linear(in_features=300, out_features=1, bias=True)
+  )
+)
+Number of parameters = 414,901
+Moving model to cuda
+Epoch 0
+Command line
+python train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/test --epochs 50 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test_s --mode normal --depth 2 --target_columns label
+iteration 0
+Class sizes
+label 0: 38.92%, 1: 61.08%
+Building model 0
+DMPNN(
+  (sigmoid): Sigmoid()
+  (encoder): MPNEncoder(
+    (dropout_layer): Dropout(p=0.0, inplace=False)
+    (act_func): ReLU()
+    (W_i): Linear(in_features=147, out_features=300, bias=False)
+    (W_h): Linear(in_features=300, out_features=300, bias=False)
+    (W_o): Linear(in_features=433, out_features=300, bias=True)
+  )
+  (ffn): Sequential(
+    (0): Dropout(p=0.0, inplace=False)
+    (1): Linear(in_features=500, out_features=300, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.0, inplace=False)
+    (4): Linear(in_features=300, out_features=1, bias=True)
+  )
+)
+Number of parameters = 414,901
+Moving model to cuda
+Epoch 0
+Command line
+python train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/test --epochs 50 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test_s --mode normal --depth 2 --target_columns label
+iteration 0
+Class sizes
+label 0: 38.92%, 1: 61.08%
+Building model 0
+DMPNN(
+  (sigmoid): Sigmoid()
+  (encoder): MPNEncoder(
+    (dropout_layer): Dropout(p=0.0, inplace=False)
+    (act_func): ReLU()
+    (W_i): Linear(in_features=147, out_features=300, bias=False)
+    (W_h): Linear(in_features=300, out_features=300, bias=False)
+    (W_o): Linear(in_features=433, out_features=300, bias=True)
+  )
+  (ffn): Sequential(
+    (0): Dropout(p=0.0, inplace=False)
+    (1): Linear(in_features=500, out_features=300, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.0, inplace=False)
+    (4): Linear(in_features=300, out_features=1, bias=True)
+  )
+)
+Number of parameters = 414,901
+Moving model to cuda
+Epoch 0
+Command line
+python train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --num_workers 2 --save_dir ../pipeline/marketdrug/test --epochs 50 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/marketdrug/test_s --mode normal --depth 2 --target_columns label
+iteration 0
+Class sizes
+label 0: 38.92%, 1: 61.08%
+Building model 0
+DMPNN(
+  (sigmoid): Sigmoid()
+  (encoder): MPNEncoder(
+    (dropout_layer): Dropout(p=0.0, inplace=False)
+    (act_func): ReLU()
+    (W_i): Linear(in_features=147, out_features=300, bias=False)
+    (W_h): Linear(in_features=300, out_features=300, bias=False)
+    (W_o): Linear(in_features=433, out_features=300, bias=True)
+  )
+  (ffn): Sequential(
+    (0): Dropout(p=0.0, inplace=False)
+    (1): Linear(in_features=500, out_features=300, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.0, inplace=False)
+    (4): Linear(in_features=300, out_features=1, bias=True)
+  )
+)
+Number of parameters = 414,901
+Moving model to cuda
+Epoch 0
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\predict.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 50 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/test_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 50 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/test_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+iteration 0
+Class sizes
+label 0: 38.92%, 1: 61.08%
+Building model 0
+DMPNN(
+  (sigmoid): Sigmoid()
+  (encoder): MPNEncoder(
+    (dropout_layer): Dropout(p=0.0, inplace=False)
+    (act_func): ReLU()
+    (W_i): Linear(in_features=147, out_features=300, bias=False)
+    (W_h): Linear(in_features=300, out_features=300, bias=False)
+    (W_o): Linear(in_features=433, out_features=300, bias=True)
+  )
+  (ffn): Sequential(
+    (0): Dropout(p=0.0, inplace=False)
+    (1): Linear(in_features=500, out_features=300, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.0, inplace=False)
+    (4): Linear(in_features=300, out_features=1, bias=True)
+  )
+)
+Number of parameters = 414,901
+Moving model to cuda
+Epoch 0
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 50 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/test_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+iteration 0
+Class sizes
+label 0: 38.92%, 1: 61.08%
+Building model 0
+DMPNN(
+  (sigmoid): Sigmoid()
+  (encoder): MPNEncoder(
+    (dropout_layer): Dropout(p=0.0, inplace=False)
+    (act_func): ReLU()
+    (W_i): Linear(in_features=147, out_features=300, bias=False)
+    (W_h): Linear(in_features=300, out_features=300, bias=False)
+    (W_o): Linear(in_features=433, out_features=300, bias=True)
+  )
+  (ffn): Sequential(
+    (0): Dropout(p=0.0, inplace=False)
+    (1): Linear(in_features=500, out_features=300, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.0, inplace=False)
+    (4): Linear(in_features=300, out_features=1, bias=True)
+  )
+)
+Number of parameters = 414,901
+Moving model to cuda
+Epoch 0
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 50 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/test_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+iteration 0
+Class sizes
+label 0: 38.92%, 1: 61.08%
+Building model 0
+DMPNN(
+  (sigmoid): Sigmoid()
+  (encoder): MPNEncoder(
+    (dropout_layer): Dropout(p=0.0, inplace=False)
+    (act_func): ReLU()
+    (W_i): Linear(in_features=147, out_features=300, bias=False)
+    (W_h): Linear(in_features=300, out_features=300, bias=False)
+    (W_o): Linear(in_features=433, out_features=300, bias=True)
+  )
+  (ffn): Sequential(
+    (0): Dropout(p=0.0, inplace=False)
+    (1): Linear(in_features=500, out_features=300, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.0, inplace=False)
+    (4): Linear(in_features=300, out_features=1, bias=True)
+  )
+)
+Number of parameters = 414,901
+Moving model to cuda
+Epoch 0
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 50 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/test_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+iteration 0
+Class sizes
+label 0: 38.92%, 1: 61.08%
+Building model 0
+DMPNN(
+  (sigmoid): Sigmoid()
+  (encoder): MPNEncoder(
+    (dropout_layer): Dropout(p=0.0, inplace=False)
+    (act_func): ReLU()
+    (W_i): Linear(in_features=147, out_features=300, bias=False)
+    (W_h): Linear(in_features=300, out_features=300, bias=False)
+    (W_o): Linear(in_features=433, out_features=300, bias=True)
+  )
+  (ffn): Sequential(
+    (0): Dropout(p=0.0, inplace=False)
+    (1): Linear(in_features=500, out_features=300, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.0, inplace=False)
+    (4): Linear(in_features=300, out_features=1, bias=True)
+  )
+)
+Number of parameters = 414,901
+Moving model to cuda
+Epoch 0
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 50 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/test_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+iteration 0
+Class sizes
+label 0: 38.92%, 1: 61.08%
+Building model 0
+DMPNN(
+  (sigmoid): Sigmoid()
+  (encoder): MPNEncoder(
+    (dropout_layer): Dropout(p=0.0, inplace=False)
+    (act_func): ReLU()
+    (W_i): Linear(in_features=147, out_features=300, bias=False)
+    (W_h): Linear(in_features=300, out_features=300, bias=False)
+    (W_o): Linear(in_features=433, out_features=300, bias=True)
+  )
+  (ffn): Sequential(
+    (0): Dropout(p=0.0, inplace=False)
+    (1): Linear(in_features=500, out_features=300, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.0, inplace=False)
+    (4): Linear(in_features=300, out_features=1, bias=True)
+  )
+)
+Number of parameters = 414,901
+Moving model to cuda
+Epoch 0
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 50 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/test_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+iteration 0
+Class sizes
+label 0: 38.92%, 1: 61.08%
+Building model 0
+DMPNN(
+  (sigmoid): Sigmoid()
+  (encoder): MPNEncoder(
+    (dropout_layer): Dropout(p=0.0, inplace=False)
+    (act_func): ReLU()
+    (W_i): Linear(in_features=147, out_features=300, bias=False)
+    (W_h): Linear(in_features=300, out_features=300, bias=False)
+    (W_o): Linear(in_features=433, out_features=300, bias=True)
+  )
+  (ffn): Sequential(
+    (0): Dropout(p=0.0, inplace=False)
+    (1): Linear(in_features=500, out_features=300, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.0, inplace=False)
+    (4): Linear(in_features=300, out_features=1, bias=True)
+  )
+)
+Number of parameters = 414,901
+Moving model to cuda
+Epoch 0
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 50 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/test_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+iteration 0
+Class sizes
+label 0: 38.92%, 1: 61.08%
+Building model 0
+DMPNN(
+  (sigmoid): Sigmoid()
+  (encoder): MPNEncoder(
+    (dropout_layer): Dropout(p=0.0, inplace=False)
+    (act_func): ReLU()
+    (W_i): Linear(in_features=147, out_features=300, bias=False)
+    (W_h): Linear(in_features=300, out_features=300, bias=False)
+    (W_o): Linear(in_features=433, out_features=300, bias=True)
+  )
+  (ffn): Sequential(
+    (0): Dropout(p=0.0, inplace=False)
+    (1): Linear(in_features=500, out_features=300, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.0, inplace=False)
+    (4): Linear(in_features=300, out_features=1, bias=True)
+  )
+)
+Number of parameters = 414,901
+Moving model to cuda
+Epoch 0
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 50 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/test_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+iteration 0
+Class sizes
+label 0: 38.92%, 1: 61.08%
+Building model 0
+DMPNN(
+  (sigmoid): Sigmoid()
+  (encoder): MPNEncoder(
+    (dropout_layer): Dropout(p=0.0, inplace=False)
+    (act_func): ReLU()
+    (W_i): Linear(in_features=147, out_features=300, bias=False)
+    (W_h): Linear(in_features=300, out_features=300, bias=False)
+    (W_o): Linear(in_features=433, out_features=300, bias=True)
+  )
+  (ffn): Sequential(
+    (0): Dropout(p=0.0, inplace=False)
+    (1): Linear(in_features=500, out_features=300, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.0, inplace=False)
+    (4): Linear(in_features=300, out_features=1, bias=True)
+  )
+)
+Number of parameters = 414,901
+Moving model to cuda
+Epoch 0
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 50 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/test_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+iteration 0
+Class sizes
+label 0: 38.92%, 1: 61.08%
+Building model 0
+DMPNN(
+  (sigmoid): Sigmoid()
+  (encoder): MPNEncoder(
+    (dropout_layer): Dropout(p=0.0, inplace=False)
+    (act_func): ReLU()
+    (W_i): Linear(in_features=147, out_features=300, bias=False)
+    (W_h): Linear(in_features=300, out_features=300, bias=False)
+    (W_o): Linear(in_features=433, out_features=300, bias=True)
+  )
+  (ffn): Sequential(
+    (0): Dropout(p=0.0, inplace=False)
+    (1): Linear(in_features=500, out_features=300, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.0, inplace=False)
+    (4): Linear(in_features=300, out_features=1, bias=True)
+  )
+)
+Number of parameters = 414,901
+Moving model to cuda
+Epoch 0
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 50 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/test_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+iteration 0
+Class sizes
+label 0: 38.92%, 1: 61.08%
+Building model 0
+DMPNN(
+  (sigmoid): Sigmoid()
+  (encoder): MPNEncoder(
+    (dropout_layer): Dropout(p=0.0, inplace=False)
+    (act_func): ReLU()
+    (W_i): Linear(in_features=147, out_features=300, bias=False)
+    (W_h): Linear(in_features=300, out_features=300, bias=False)
+    (W_o): Linear(in_features=433, out_features=300, bias=True)
+  )
+  (ffn): Sequential(
+    (0): Dropout(p=0.0, inplace=False)
+    (1): Linear(in_features=500, out_features=300, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.0, inplace=False)
+    (4): Linear(in_features=300, out_features=1, bias=True)
+  )
+)
+Number of parameters = 414,901
+Moving model to cuda
+Epoch 0
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 50 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/test_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+iteration 0
+Class sizes
+label 0: 38.92%, 1: 61.08%
+Building model 0
+DMPNN(
+  (sigmoid): Sigmoid()
+  (encoder): MPNEncoder(
+    (dropout_layer): Dropout(p=0.0, inplace=False)
+    (act_func): ReLU()
+    (W_i): Linear(in_features=147, out_features=300, bias=False)
+    (W_h): Linear(in_features=300, out_features=300, bias=False)
+    (W_o): Linear(in_features=433, out_features=300, bias=True)
+  )
+  (ffn): Sequential(
+    (0): Dropout(p=0.0, inplace=False)
+    (1): Linear(in_features=500, out_features=300, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.0, inplace=False)
+    (4): Linear(in_features=300, out_features=1, bias=True)
+  )
+)
+Number of parameters = 414,901
+Moving model to cuda
+Epoch 0
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 50 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/test_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+iteration 0
+Class sizes
+label 0: 38.92%, 1: 61.08%
+Building model 0
+DMPNN(
+  (sigmoid): Sigmoid()
+  (encoder): MPNEncoder(
+    (dropout_layer): Dropout(p=0.0, inplace=False)
+    (act_func): ReLU()
+    (W_i): Linear(in_features=147, out_features=300, bias=False)
+    (W_h): Linear(in_features=300, out_features=300, bias=False)
+    (W_o): Linear(in_features=433, out_features=300, bias=True)
+  )
+  (ffn): Sequential(
+    (0): Dropout(p=0.0, inplace=False)
+    (1): Linear(in_features=500, out_features=300, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.0, inplace=False)
+    (4): Linear(in_features=300, out_features=1, bias=True)
+  )
+)
+Number of parameters = 414,901
+Moving model to cuda
+Epoch 0
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 50 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/test_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+iteration 0
+Class sizes
+label 0: 38.92%, 1: 61.08%
+Building model 0
+DMPNN(
+  (sigmoid): Sigmoid()
+  (encoder): MPNEncoder(
+    (dropout_layer): Dropout(p=0.0, inplace=False)
+    (act_func): ReLU()
+    (W_i): Linear(in_features=147, out_features=300, bias=False)
+    (W_h): Linear(in_features=300, out_features=300, bias=False)
+    (W_o): Linear(in_features=433, out_features=300, bias=True)
+  )
+  (ffn): Sequential(
+    (0): Dropout(p=0.0, inplace=False)
+    (1): Linear(in_features=500, out_features=300, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.0, inplace=False)
+    (4): Linear(in_features=300, out_features=1, bias=True)
+  )
+)
+Number of parameters = 414,901
+Moving model to cuda
+Epoch 0
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 50 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/test_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+iteration 0
+Class sizes
+label 0: 38.92%, 1: 61.08%
+Building model 0
+DMPNN(
+  (sigmoid): Sigmoid()
+  (encoder): MPNEncoder(
+    (dropout_layer): Dropout(p=0.0, inplace=False)
+    (act_func): ReLU()
+    (W_i): Linear(in_features=147, out_features=300, bias=False)
+    (W_h): Linear(in_features=300, out_features=300, bias=False)
+    (W_o): Linear(in_features=433, out_features=300, bias=True)
+  )
+  (ffn): Sequential(
+    (0): Dropout(p=0.0, inplace=False)
+    (1): Linear(in_features=500, out_features=300, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.0, inplace=False)
+    (4): Linear(in_features=300, out_features=1, bias=True)
+  )
+)
+Number of parameters = 414,901
+Moving model to cuda
+Epoch 0
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 50 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/test_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+iteration 0
+Class sizes
+label 0: 38.92%, 1: 61.08%
+Building model 0
+DMPNN(
+  (sigmoid): Sigmoid()
+  (encoder): MPNEncoder(
+    (dropout_layer): Dropout(p=0.0, inplace=False)
+    (act_func): ReLU()
+    (W_i): Linear(in_features=147, out_features=300, bias=False)
+    (W_h): Linear(in_features=300, out_features=300, bias=False)
+    (W_o): Linear(in_features=433, out_features=300, bias=True)
+  )
+  (ffn): Sequential(
+    (0): Dropout(p=0.0, inplace=False)
+    (1): Linear(in_features=500, out_features=300, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.0, inplace=False)
+    (4): Linear(in_features=300, out_features=1, bias=True)
+  )
+)
+Number of parameters = 414,901
+Moving model to cuda
+Epoch 0
+Loss = 6.4947e-01, PNorm = 35.1404, GNorm = 0.5115, lr_0 = 5.0000e-04
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 2 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/test_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+iteration 0
+Class sizes
+label 0: 38.92%, 1: 61.08%
+Building model 0
+DMPNN(
+  (sigmoid): Sigmoid()
+  (encoder): MPNEncoder(
+    (dropout_layer): Dropout(p=0.0, inplace=False)
+    (act_func): ReLU()
+    (W_i): Linear(in_features=147, out_features=300, bias=False)
+    (W_h): Linear(in_features=300, out_features=300, bias=False)
+    (W_o): Linear(in_features=433, out_features=300, bias=True)
+  )
+  (ffn): Sequential(
+    (0): Dropout(p=0.0, inplace=False)
+    (1): Linear(in_features=500, out_features=300, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.0, inplace=False)
+    (4): Linear(in_features=300, out_features=1, bias=True)
+  )
+)
+Number of parameters = 414,901
+Moving model to cuda
+Epoch 0
+Loss = 6.4947e-01, PNorm = 35.1404, GNorm = 0.5115, lr_0 = 5.0000e-04
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 2 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/test_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+iteration 0
+Class sizes
+label 0: 38.92%, 1: 61.08%
+Building model 0
+DMPNN(
+  (sigmoid): Sigmoid()
+  (encoder): MPNEncoder(
+    (dropout_layer): Dropout(p=0.0, inplace=False)
+    (act_func): ReLU()
+    (W_i): Linear(in_features=147, out_features=300, bias=False)
+    (W_h): Linear(in_features=300, out_features=300, bias=False)
+    (W_o): Linear(in_features=433, out_features=300, bias=True)
+  )
+  (ffn): Sequential(
+    (0): Dropout(p=0.0, inplace=False)
+    (1): Linear(in_features=500, out_features=300, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.0, inplace=False)
+    (4): Linear(in_features=300, out_features=1, bias=True)
+  )
+)
+Number of parameters = 414,901
+Moving model to cuda
+Epoch 0
+Loss = 6.4947e-01, PNorm = 35.1404, GNorm = 0.5115, lr_0 = 5.0000e-04
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 2 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/test_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+iteration 0
+Class sizes
+label 0: 38.92%, 1: 61.08%
+Building model 0
+DMPNN(
+  (sigmoid): Sigmoid()
+  (encoder): MPNEncoder(
+    (dropout_layer): Dropout(p=0.0, inplace=False)
+    (act_func): ReLU()
+    (W_i): Linear(in_features=147, out_features=300, bias=False)
+    (W_h): Linear(in_features=300, out_features=300, bias=False)
+    (W_o): Linear(in_features=433, out_features=300, bias=True)
+  )
+  (ffn): Sequential(
+    (0): Dropout(p=0.0, inplace=False)
+    (1): Linear(in_features=500, out_features=300, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.0, inplace=False)
+    (4): Linear(in_features=300, out_features=1, bias=True)
+  )
+)
+Number of parameters = 414,901
+Moving model to cuda
+Epoch 0
+Loss = 6.4947e-01, PNorm = 35.1404, GNorm = 0.5115, lr_0 = 5.0000e-04
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 2 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/test_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+iteration 0
+Class sizes
+label 0: 38.92%, 1: 61.08%
+Building model 0
+DMPNN(
+  (sigmoid): Sigmoid()
+  (encoder): MPNEncoder(
+    (dropout_layer): Dropout(p=0.0, inplace=False)
+    (act_func): ReLU()
+    (W_i): Linear(in_features=147, out_features=300, bias=False)
+    (W_h): Linear(in_features=300, out_features=300, bias=False)
+    (W_o): Linear(in_features=433, out_features=300, bias=True)
+  )
+  (ffn): Sequential(
+    (0): Dropout(p=0.0, inplace=False)
+    (1): Linear(in_features=500, out_features=300, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.0, inplace=False)
+    (4): Linear(in_features=300, out_features=1, bias=True)
+  )
+)
+Number of parameters = 414,901
+Moving model to cuda
+Epoch 0
+Loss = 6.4947e-01, PNorm = 35.1404, GNorm = 0.5115, lr_0 = 5.0000e-04
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 2 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/test_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+iteration 0
+Class sizes
+label 0: 38.92%, 1: 61.08%
+Building model 0
+DMPNN(
+  (sigmoid): Sigmoid()
+  (encoder): MPNEncoder(
+    (dropout_layer): Dropout(p=0.0, inplace=False)
+    (act_func): ReLU()
+    (W_i): Linear(in_features=147, out_features=300, bias=False)
+    (W_h): Linear(in_features=300, out_features=300, bias=False)
+    (W_o): Linear(in_features=433, out_features=300, bias=True)
+  )
+  (ffn): Sequential(
+    (0): Dropout(p=0.0, inplace=False)
+    (1): Linear(in_features=500, out_features=300, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.0, inplace=False)
+    (4): Linear(in_features=300, out_features=1, bias=True)
+  )
+)
+Number of parameters = 414,901
+Moving model to cuda
+Epoch 0
+Loss = 6.4947e-01, PNorm = 35.1404, GNorm = 0.5115, lr_0 = 5.0000e-04
+Validation auc = 0.713170
+round 0 best train auc = 0.723951 on epoch 0
+round 0 best validation auc = 0.713170 on epoch 0
+Epoch 1
+Loss = 5.9511e-01, PNorm = 35.1602, GNorm = 0.2918, lr_0 = 5.0000e-04
+Validation auc = 0.726851
+round 0 best train auc = 0.742310 on epoch 1
+round 0 best validation auc = 0.726851 on epoch 1
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 2 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/test_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+iteration 0
+Class sizes
+label 0: 38.92%, 1: 61.08%
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+DMPNN(
+  (sigmoid): Sigmoid()
+  (encoder): MPNEncoder(
+    (dropout_layer): Dropout(p=0.0, inplace=False)
+    (act_func): ReLU()
+    (W_i): Linear(in_features=147, out_features=300, bias=False)
+    (W_h): Linear(in_features=300, out_features=300, bias=False)
+    (W_o): Linear(in_features=433, out_features=300, bias=True)
+  )
+  (ffn): Sequential(
+    (0): Dropout(p=0.0, inplace=False)
+    (1): Linear(in_features=500, out_features=300, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.0, inplace=False)
+    (4): Linear(in_features=300, out_features=1, bias=True)
+  )
+)
+Number of parameters = 414,901
+Moving model to cuda
+Epoch 0
+Loss = 6.0517e-01, PNorm = 35.1851, GNorm = 0.8023, lr_0 = 5.0000e-04
+Validation auc = 0.731692
+round 0 best train auc = 0.751521 on epoch 0
+round 0 best validation auc = 0.731692 on epoch 0
+Epoch 1
+Loss = 5.8985e-01, PNorm = 35.2056, GNorm = 0.2166, lr_0 = 5.0000e-04
+Validation auc = 0.734117
+round 0 best train auc = 0.755610 on epoch 1
+round 0 best validation auc = 0.734117 on epoch 1
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 2 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/test_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+iteration 0
+Class sizes
+label 0: 38.92%, 1: 61.08%
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+DMPNN(
+  (sigmoid): Sigmoid()
+  (encoder): MPNEncoder(
+    (dropout_layer): Dropout(p=0.0, inplace=False)
+    (act_func): ReLU()
+    (W_i): Linear(in_features=147, out_features=300, bias=False)
+    (W_h): Linear(in_features=300, out_features=300, bias=False)
+    (W_o): Linear(in_features=433, out_features=300, bias=True)
+  )
+  (ffn): Sequential(
+    (0): Dropout(p=0.0, inplace=False)
+    (1): Linear(in_features=500, out_features=300, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.0, inplace=False)
+    (4): Linear(in_features=300, out_features=1, bias=True)
+  )
+)
+Number of parameters = 414,901
+Moving model to cuda
+Epoch 0
+Loss = 5.7732e-01, PNorm = 35.2535, GNorm = 0.2922, lr_0 = 5.0000e-04
+Validation auc = 0.743409
+round 0 best train auc = 0.766539 on epoch 0
+round 0 best validation auc = 0.743409 on epoch 0
+Epoch 1
+Loss = 5.6554e-01, PNorm = 35.2830, GNorm = 0.2419, lr_0 = 5.0000e-04
+Validation auc = 0.744883
+round 0 best train auc = 0.770818 on epoch 1
+round 0 best validation auc = 0.744883 on epoch 1
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\predict.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 2 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/test_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label --outputfile output
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\predict.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 2 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/test_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label --outputfile output
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\predict.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 2 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/test_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label --outputfile output
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\predict.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 2 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/test_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label --outputfile output
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\predict.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 2 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/test_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label --outputfile output
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\predict.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 2 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/test_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label --outputfile output
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\predict.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 2 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/test_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label --outputfile output
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 2 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/al_ensemble_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+iteration 0
+Class sizes
+label 0: 38.92%, 1: 61.08%
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+DMPNN(
+  (sigmoid): Sigmoid()
+  (encoder): MPNEncoder(
+    (dropout_layer): Dropout(p=0.0, inplace=False)
+    (act_func): ReLU()
+    (W_i): Linear(in_features=147, out_features=300, bias=False)
+    (W_h): Linear(in_features=300, out_features=300, bias=False)
+    (W_o): Linear(in_features=433, out_features=300, bias=True)
+  )
+  (ffn): Sequential(
+    (0): Dropout(p=0.0, inplace=False)
+    (1): Linear(in_features=500, out_features=300, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.0, inplace=False)
+    (4): Linear(in_features=300, out_features=1, bias=True)
+  )
+)
+Number of parameters = 414,901
+Moving model to cuda
+Epoch 0
+Loss = 5.7925e-01, PNorm = 35.3333, GNorm = 0.6440, lr_0 = 5.0000e-04
+Validation auc = 0.748784
+round 0 best train auc = 0.776071 on epoch 0
+round 0 best validation auc = 0.748784 on epoch 0
+Epoch 1
+Loss = 5.6818e-01, PNorm = 35.3669, GNorm = 0.3046, lr_0 = 5.0000e-04
+Validation auc = 0.749911
+round 0 best train auc = 0.778268 on epoch 1
+round 0 best validation auc = 0.749911 on epoch 1
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\al_ensemble.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 2 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/al_ensemble_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\al_ensemble.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 2 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/al_ensemble_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\al_ensemble.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 2 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/al_ensemble_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\train.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 2 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/test_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+iteration 0
+Class sizes
+label 0: 38.92%, 1: 61.08%
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+DMPNN(
+  (sigmoid): Sigmoid()
+  (encoder): MPNEncoder(
+    (dropout_layer): Dropout(p=0.0, inplace=False)
+    (act_func): ReLU()
+    (W_i): Linear(in_features=147, out_features=300, bias=False)
+    (W_h): Linear(in_features=300, out_features=300, bias=False)
+    (W_o): Linear(in_features=433, out_features=300, bias=True)
+  )
+  (ffn): Sequential(
+    (0): Dropout(p=0.0, inplace=False)
+    (1): Linear(in_features=500, out_features=300, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.0, inplace=False)
+    (4): Linear(in_features=300, out_features=1, bias=True)
+  )
+)
+Number of parameters = 414,901
+Moving model to cuda
+Epoch 0
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\al_ensemble.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 2 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/al_ensemble_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\al_ensemble.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 2 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/al_ensemble_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\al_ensemble.py --data_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 2 --features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_12-06_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/al_ensemble_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\al_ensemble.py --data_path ../datasets/worldaintrials_KNIME_rmnu_06-03_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 2 --features_path ../datasets/worldaintrials_KNIME_rmnu_06-03_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_06-03_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_06-03_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/al_ensemble_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\al_ensemble.py --data_path ../datasets/worldaintrials_KNIME_rmnu_06-03_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 2 --features_path ../datasets/worldaintrials_KNIME_rmnu_06-03_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_06-03_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_06-03_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/al_ensemble_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\al_ensemble.py --data_path ../datasets/worldaintrials_KNIME_rmnu_06-03_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 2 --features_path ../datasets/worldaintrials_KNIME_rmnu_06-03_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_06-03_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_06-03_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/al_ensemble_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Command line
+python e:\ccj\active learning\Drug-likeness-predictor\code\al_ensemble.py --data_path ../datasets/worldaintrials_KNIME_rmnu_06-03_train.csv --dataset_type classification --save_dir ../pipeline/marketdrug/test --epochs 2 --features_path ../datasets/worldaintrials_KNIME_rmnu_06-03_train_rdkit_2d_normalized.npy --separate_test_path ../datasets/worldaintrials_KNIME_rmnu_06-03_test.csv --separate_test_features_path ../datasets/worldaintrials_KNIME_rmnu_06-03_test_rdkit_2d_normalized.npy --no_features_scaling --metric auc --init_lr 5e-4 --max_lr 5e-4 --final_lr 5e-4 --s ../pipeline/al_ensemble_s --mode normal --depth 2 --hidden_size 300 --ffn_num_layer 2 --batch_size 500 --target_columns label
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
+Loading pretrained parameter "encoder.cached_zero_vector".
+Loading pretrained parameter "encoder.W_i.weight".
+Loading pretrained parameter "encoder.W_h.weight".
+Loading pretrained parameter "encoder.W_o.weight".
+Loading pretrained parameter "encoder.W_o.bias".
+Loading pretrained parameter "ffn.1.weight".
+Loading pretrained parameter "ffn.1.bias".
+Loading pretrained parameter "ffn.4.weight".
+Loading pretrained parameter "ffn.4.bias".
+Moving model to cuda
