@@ -317,8 +317,8 @@ class TrainArgs(CommonArgs):
     weight_decay: float=0
 
     # al ensemble args
-    start_iter=None
-    end_iter=None
+    start_iter: int=None
+    end_iter: int =None
 
     # Model arguments
     bias: bool = False

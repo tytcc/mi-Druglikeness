@@ -54,9 +54,9 @@ def rm_du(data):
 def split_train_GNN_predict(args,logger,path_save,n):
     seed=34
     # results_all_list=[[],[],[],[],[],[],[],[],[],[]]
-    # results_all_list=[[],[],[],[],[]]
-    results_all_list = [[]]
-    for i in range(1):
+    results_all_list=[[],[],[],[],[]]
+    # results_all_list = [[]]
+    for i in range(5):
         args.fold=i
         # i=args.fold
         path_save_new=path_save+'/fold_'+str(i)+'/'
@@ -140,7 +140,7 @@ def split_train_GNN_predict(args,logger,path_save,n):
         data = pd.DataFrame(results_all.mean(axis=1),columns=['average'])
         data['smiles']=test_data.smiles()
         
-        data.to_csv(args.outputfile,index=False)
+        data.to_csv('../results/'+args.outputfile+'.csv',index=False)
 
 
     return results_all_list

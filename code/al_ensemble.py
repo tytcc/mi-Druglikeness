@@ -137,7 +137,7 @@ def split_train_GNN_predict(args,logger,path_save):
                 # temperature=[1]
                 # temperature 计算
                 temperature=1
-                for iteration in range(11,16):
+                for iteration in range(args.start_iter,args.end_iter):
                     # test_preds_tem,test_preds,tem=net.predict_GNN_last_tem(test_data,val_data,iteration,temperature,args,logger) #temperature[iteration]
                     # print(len(test_data))
                     # print(np.array(test_preds).shape)
