@@ -1,6 +1,6 @@
-# Drug-likeness predictor
+# Subdivisional Druglikeness predictor
 
-This repository contains code used in paper [Subvisional-Druglikeness predictor](http)
+This repository contains code used in paper [Subdivisional-Druglikeness predictor](http)
 
 ## Requirements
 
